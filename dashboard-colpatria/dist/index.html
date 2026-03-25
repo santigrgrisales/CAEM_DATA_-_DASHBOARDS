@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>📊 Dashboard de Oficios – Colpatria</title>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<style>
+  :root{--bg:#0e1117;--card:#1a1d23;--border:#2d3139;--text:#fafafa;
+        --muted:#8b949e;--accent:#4fc3f7;--red:#e74c3c;--green:#2ecc71;
+        --yellow:#f39c12;--blue:#3498db;--purple:#9b59b6}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+       background:var(--bg);color:var(--text);line-height:1.5}
+  .container{max-width:1400px;margin:0 auto;padding:20px}
+  h1{text-align:center;font-size:1.8rem;padding:20px 0;border-bottom:1px solid var(--border)}
+  h2{font-size:1.2rem;margin:0 0 12px;color:var(--accent)}
+  .kpi-row{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin:24px 0}
+  .kpi{background:var(--card);border:1px solid var(--border);border-radius:8px;
+       padding:16px;text-align:center}
+  .kpi .label{font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px}
+  .kpi .value{font-size:1.8rem;font-weight:700;margin-top:4px}
+  .row{display:grid;gap:16px;margin:16px 0}
+  .row-2{grid-template-columns:1fr 1fr}
+  .row-1{grid-template-columns:1fr}
+  .row-1-2{grid-template-columns:1fr 2fr}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:16px}
+  .filters{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:16px 0;
+           background:var(--card);border:1px solid var(--border);border-radius:8px;padding:12px 16px}
+  .filters label{font-size:.8rem;color:var(--muted);margin-right:4px}
+  .filters select{background:var(--bg);color:var(--text);border:1px solid var(--border);
+                   border-radius:4px;padding:6px 10px;font-size:.85rem;min-width:160px}
+  .filters select:focus{outline:none;border-color:var(--accent)}
+  .filter-info{width:100%;font-size:.8rem;color:var(--accent);margin-top:4px;font-style:italic}
+  table{width:100%;border-collapse:collapse;font-size:.85rem}
+  th{background:var(--bg);color:var(--accent);padding:8px 10px;text-align:left;
+     border-bottom:2px solid var(--border);position:sticky;top:0}
+  td{padding:6px 10px;border-bottom:1px solid var(--border)}
+  tr:hover td{background:rgba(79,195,247,.06)}
+  .table-wrap{max-height:380px;overflow-y:auto;border:1px solid var(--border);border-radius:6px}
+  .section{margin-top:32px;border-top:1px solid var(--border);padding-top:20px}
+  footer{text-align:center;color:var(--muted);font-size:.75rem;padding:30px 0 10px;
+         border-top:1px solid var(--border);margin-top:30px}
+  .loading{text-align:center;padding:60px;color:var(--muted);font-size:1.2rem}
+  @media(max-width:768px){
+    .kpi-row{grid-template-columns:repeat(2,1fr)}
+    .row-2,.row-1-2{grid-template-columns:1fr}
+    .filters{flex-direction:column}
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>📊 Dashboard de Oficios – Colpatria</h1>
+
+  <!-- Filtros -->
+  <div class="filters">
+    <div><label>Clasificación:</label>
+      <select id="fClf"><option value="">Todos</option></select></div>
+    <div><label>Tipo:</label>
+      <select id="fTipo"><option value="">Todos</option></select></div>
+    <div><label>Ciudad:</label>
+      <select id="fCity"><option value="">Todas</option></select></div>
+    <div><label>Entidad:</label>
+      <select id="fEnt"><option value="">Todas</option></select></div>
+    <div style="display:flex;align-items:center;gap:6px">
+      <label style="cursor:pointer;display:flex;align-items:center;gap:6px">
+        <input type="checkbox" id="fDup" style="width:16px;height:16px;cursor:pointer">
+        <span style="font-size:.85rem">Excluir duplicados</span>
+      </label>
+    </div>
+    <div class="filter-info" id="filterInfo"></div>
+  </div>
+
+  <!-- KPIs -->
+  <div class="kpi-row">
+    <div class="kpi"><div class="label">Total Oficios (filtrado)</div><div class="value" id="kTotal">–</div></div>
+    <div class="kpi"><div class="label">Entidades</div><div class="value" id="kEnt">–</div></div>
+    <div class="kpi"><div class="label">Ciudades</div><div class="value" id="kCity">–</div></div>
+    <div class="kpi"><div class="label">Únicos (global)</div><div class="value" id="kUnicos">–</div></div>
+    <div class="kpi"><div class="label">Duplicados (global)</div><div class="value" id="kDup">–</div></div>
+  </div>
+
+  <!-- Pies -->
+  <div class="row row-2">
+    <div class="card"><h2>Clasificación (Embargo / Desembargo / Requerimiento)</h2>
+      <div id="pieClf" style="height:340px"></div></div>
+    <div class="card"><h2>Tipo de Oficio (Judicial / Coactivo)</h2>
+      <div id="pieTipo" style="height:340px"></div></div>
+  </div>
+
+  <!-- Barras Entidades -->
+  <div class="section">
+    <div class="card"><h2>Top 25 Entidades</h2>
+      <div id="barEnt" style="height:650px"></div></div>
+  </div>
+
+  <!-- Barras Ciudades -->
+  <div class="section">
+    <div class="card"><h2>Top 25 Ciudades</h2>
+      <div id="barCity" style="height:600px"></div></div>
+  </div>
+
+  <!-- Cross Table -->
+  <div class="section">
+    <div class="card"><h2>Clasificación × Tipo de Oficio</h2>
+      <div id="crossTable" class="table-wrap"></div></div>
+  </div>
+
+  <!-- Duplicados -->
+  <div class="section">
+    <div class="row row-1-2">
+      <div class="card">
+        <h2>Resumen Duplicados (global)</h2>
+        <div id="dupSummary"></div>
+      </div>
+      <div class="card">
+        <h2>Top 15 Oficios Más Repetidos</h2>
+        <div id="dupTable" class="table-wrap"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Variantes Entidad -->
+  <div class="section">
+    <div class="card">
+      <h2>Detalle de Entidad: variantes originales</h2>
+      <select id="selEnt" style="margin:8px 0;background:var(--bg);color:var(--text);
+              border:1px solid var(--border);border-radius:4px;padding:6px;width:100%;
+              font-size:.85rem;max-width:600px"></select>
+      <div id="varEntTable" class="table-wrap" style="margin-top:8px"></div>
+    </div>
+  </div>
+
+  <!-- Variantes Ciudad -->
+  <div class="section">
+    <div class="card">
+      <h2>Detalle de Ciudad: variantes originales</h2>
+      <select id="selCity" style="margin:8px 0;background:var(--bg);color:var(--text);
+              border:1px solid var(--border);border-radius:4px;padding:6px;width:100%;
+              font-size:.85rem;max-width:600px"></select>
+      <div id="varCityTable" class="table-wrap" style="margin-top:8px"></div>
+    </div>
+  </div>
+
+  <footer>Dashboard Oficios Colpatria · Normalización automática de entidades y ciudades · Versión estática para Netlify</footer>
+</div>
+
+<script>
+const D='data/',fmt=n=>n.toLocaleString('es-CO');
+const plotLayout={paper_bgcolor:'#1a1d23',plot_bgcolor:'#1a1d23',
+  font:{color:'#fafafa',size:12},margin:{l:10,r:10,t:10,b:10}};
+const plotCfg={responsive:true,displayModeBar:false};
+
+let DATA={};
+let CUBE_ALL=null; // all records
+let CUBE_UNI=null; // unique records only
+let CUBE=null;     // active cube (pointer to ALL or UNI)
+
+async function load(f){const r=await fetch(D+f);return r.json();}
+
+async function init(){
+  try{
+    [DATA.kpis,DATA.topDup,DATA.varEnt,DATA.varCity,DATA.filtros,CUBE_ALL,CUBE_UNI]=await Promise.all([
+      load('kpis.json'),load('top_duplicados.json'),
+      load('variantes_entidad.json'),load('variantes_ciudad.json'),
+      load('filtros.json'),load('cube.json'),load('cube_unicos.json')
+    ]);
+    CUBE=CUBE_ALL;
+    populateFilters();
+    document.getElementById('fDup').addEventListener('change',function(){
+      CUBE=this.checked?CUBE_UNI:CUBE_ALL;
+      render();
+    });
+    render();
+  }catch(e){
+    document.querySelector('.container').innerHTML=
+      '<div class="loading">❌ Error cargando datos: '+e.message+'<br>Asegúrate de servir desde un servidor HTTP.</div>';
+  }
+}
+
+function populateFilters(){
+  const f=DATA.filtros;
+  const fClf=document.getElementById('fClf');
+  f.clasificaciones.forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;fClf.appendChild(o);});
+  const fTipo=document.getElementById('fTipo');
+  f.tipos.forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;fTipo.appendChild(o);});
+  const fCity=document.getElementById('fCity');
+  f.ciudades.forEach(c=>{const o=document.createElement('option');o.value=c.name;o.textContent=c.name+' ('+fmt(c.count)+')';fCity.appendChild(o);});
+  const fEnt=document.getElementById('fEnt');
+  f.entidades.forEach(c=>{const o=document.createElement('option');o.value=c.name;o.textContent=c.name+' ('+fmt(c.count)+')';fEnt.appendChild(o);});
+
+  // Selectors variantes
+  const selEnt=document.getElementById('selEnt');
+  f.entidades.forEach(c=>{const o=document.createElement('option');o.value=c.name;o.textContent=c.name+'  ('+fmt(c.count)+')';selEnt.appendChild(o);});
+  const selCity=document.getElementById('selCity');
+  f.ciudades.forEach(c=>{const o=document.createElement('option');o.value=c.name;o.textContent=c.name+'  ('+fmt(c.count)+')';selCity.appendChild(o);});
+
+  // Events
+  ['fClf','fTipo','fCity','fEnt'].forEach(id=>
+    document.getElementById(id).addEventListener('change',render));
+  selEnt.addEventListener('change',renderVarEnt);
+  selCity.addEventListener('change',renderVarCity);
+}
+
+/* ═══════════════════════════════════════════════════════
+   CUBE FILTERING
+   Each row: [clfIdx, tipoIdx, cityIdx, entIdx, count]
+   ═══════════════════════════════════════════════════════ */
+
+function getFilters(){
+  const clf=document.getElementById('fClf').value;
+  const tipo=document.getElementById('fTipo').value;
+  const city=document.getElementById('fCity').value;
+  const ent=document.getElementById('fEnt').value;
+  const clfIdx=clf?CUBE.clfs.indexOf(clf):-1;
+  const tipoIdx=tipo?CUBE.tipos.indexOf(tipo):-1;
+  const cityIdx=city?CUBE.cities.indexOf(city):-1;
+  const entIdx=ent?CUBE.ents.indexOf(ent):-1;
+  return {clf,tipo,city,ent,clfIdx,tipoIdx,cityIdx,entIdx,
+          hasFilter:!!(clf||tipo||city||ent)};
+}
+
+function filteredRows(f){
+  return CUBE.rows.filter(r=>{
+    if(f.clfIdx>=0&&r[0]!==f.clfIdx) return false;
+    if(f.tipoIdx>=0&&r[1]!==f.tipoIdx) return false;
+    if(f.cityIdx>=0&&r[2]!==f.cityIdx) return false;
+    if(f.entIdx>=0&&r[3]!==f.entIdx) return false;
+    return true;
+  });
+}
+
+/* ═══════ RENDER ═══════ */
+
+function render(){
+  const f=getFilters();
+  const rows=filteredRows(f);
+
+  const parts=[];
+  if(document.getElementById('fDup').checked) parts.push('Sin duplicados');
+  if(f.clf) parts.push('Clasif: '+f.clf);
+  if(f.tipo) parts.push('Tipo: '+f.tipo);
+  if(f.city) parts.push('Ciudad: '+f.city);
+  if(f.ent) parts.push('Entidad: '+f.ent);
+  document.getElementById('filterInfo').textContent=
+    parts.length?'🔍 Filtros activos: '+parts.join(' · '):'';
+
+  renderKPIs(rows);
+  renderPies(rows);
+  renderBars(rows);
+  renderCross(rows);
+  renderDuplicados();
+  renderVarEnt();
+  renderVarCity();
+}
+
+function renderKPIs(rows){
+  const total=rows.reduce((s,r)=>s+r[4],0);
+  const entSet=new Set(),citySet=new Set();
+  rows.forEach(r=>{entSet.add(r[3]);citySet.add(r[2]);});
+  document.getElementById('kTotal').textContent=fmt(total);
+  document.getElementById('kEnt').textContent=fmt(entSet.size);
+  document.getElementById('kCity').textContent=fmt(citySet.size);
+  document.getElementById('kUnicos').textContent=fmt(DATA.kpis.unicos);
+  document.getElementById('kDup').textContent=fmt(DATA.kpis.duplicados);
+}
+
+function renderPies(rows){
+  const clfAgg={};
+  rows.forEach(r=>{const k=CUBE.clfs[r[0]]||'N/A';clfAgg[k]=(clfAgg[k]||0)+r[4];});
+  const clfColors={'EMBARGO':'#e74c3c','DESEMBARGO':'#2ecc71','REQUERIMIENTO':'#f39c12'};
+  const clfLabels=Object.keys(clfAgg);
+  Plotly.newPlot('pieClf',[{
+    type:'pie',labels:clfLabels,values:clfLabels.map(k=>clfAgg[k]),
+    hole:.4,textinfo:'label+percent+value',
+    marker:{colors:clfLabels.map(k=>clfColors[k]||'#888')}
+  }],{...plotLayout},plotCfg);
+
+  const tipoAgg={};
+  rows.forEach(r=>{const k=CUBE.tipos[r[1]]||'N/A';tipoAgg[k]=(tipoAgg[k]||0)+r[4];});
+  const tipoColors={'JUDICIAL':'#3498db','COACTIVO':'#9b59b6'};
+  const tipoLabels=Object.keys(tipoAgg);
+  Plotly.newPlot('pieTipo',[{
+    type:'pie',labels:tipoLabels,values:tipoLabels.map(k=>tipoAgg[k]),
+    hole:.4,textinfo:'label+percent+value',
+    marker:{colors:tipoLabels.map(k=>tipoColors[k]||'#888')}
+  }],{...plotLayout},plotCfg);
+}
+
+function renderBars(rows){
+  const entAgg={};
+  rows.forEach(r=>{const k=CUBE.ents[r[3]]||'N/A';entAgg[k]=(entAgg[k]||0)+r[4];});
+  const entSorted=Object.entries(entAgg).sort((a,b)=>b[1]-a[1]).slice(0,25);
+  const entNames=entSorted.map(e=>e[0]).reverse();
+  const entValues=entSorted.map(e=>e[1]).reverse();
+  Plotly.newPlot('barEnt',[{
+    type:'bar',x:entValues,y:entNames,orientation:'h',
+    marker:{color:entValues.map((_,i)=>`hsl(${5+i*2},70%,${45+i}%)`)}
+  }],{...plotLayout,margin:{l:320,r:20,t:10,b:40},height:650,
+      yaxis:{autorange:true}},plotCfg);
+
+  const cityAgg={};
+  rows.forEach(r=>{const k=CUBE.cities[r[2]]||'N/A';cityAgg[k]=(cityAgg[k]||0)+r[4];});
+  const citySorted=Object.entries(cityAgg).sort((a,b)=>b[1]-a[1]).slice(0,25);
+  const cityNames=citySorted.map(e=>e[0]).reverse();
+  const cityValues=citySorted.map(e=>e[1]).reverse();
+  Plotly.newPlot('barCity',[{
+    type:'bar',x:cityValues,y:cityNames,orientation:'h',
+    marker:{color:cityValues.map((_,i)=>`hsl(${120+i*3},60%,${40+i}%)`)}
+  }],{...plotLayout,margin:{l:250,r:20,t:10,b:40},height:600,
+      yaxis:{autorange:true}},plotCfg);
+}
+
+function renderCross(rows){
+  const matrix={};
+  const allClf=new Set(),allTipo=new Set();
+  rows.forEach(r=>{
+    const c=CUBE.clfs[r[0]]||'N/A',t=CUBE.tipos[r[1]]||'N/A';
+    allClf.add(c);allTipo.add(t);
+    if(!matrix[c]) matrix[c]={};
+    matrix[c][t]=(matrix[c][t]||0)+r[4];
+  });
+  const rClf=Array.from(allClf).sort();
+  const cTipo=Array.from(allTipo).sort();
+  const totRow={};
+  rClf.forEach(c=>{
+    let rowTotal=0;
+    cTipo.forEach(t=>{const v=matrix[c]?.[t]||0;rowTotal+=v;totRow[t]=(totRow[t]||0)+v;});
+    if(!matrix[c]) matrix[c]={};
+    matrix[c]['TOTAL']=rowTotal;
+  });
+  const grandTotal=Object.values(totRow).reduce((a,b)=>a+b,0);
+
+  let html='<table><thead><tr><th></th>';
+  cTipo.forEach(t=>html+='<th>'+t+'</th>');
+  html+='<th>TOTAL</th></tr></thead><tbody>';
+  rClf.forEach(c=>{
+    html+='<tr><td><strong>'+c+'</strong></td>';
+    cTipo.forEach(t=>html+='<td>'+fmt(matrix[c]?.[t]||0)+'</td>');
+    html+='<td><strong>'+fmt(matrix[c]?.['TOTAL']||0)+'</strong></td></tr>';
+  });
+  html+='<tr><td><strong>TOTAL</strong></td>';
+  cTipo.forEach(t=>html+='<td><strong>'+fmt(totRow[t]||0)+'</strong></td>');
+  html+='<td><strong>'+fmt(grandTotal)+'</strong></td></tr>';
+  html+='</tbody></table>';
+  document.getElementById('crossTable').innerHTML=html;
+}
+
+function renderDuplicados(){
+  const k=DATA.kpis;
+  const pct=k.total>0?(k.duplicados/k.total*100).toFixed(1):0;
+  document.getElementById('dupSummary').innerHTML=`
+    <table>
+      <tr><td>Total registros</td><td><strong>${fmt(k.total)}</strong></td></tr>
+      <tr><td>Oficios únicos</td><td><strong>${fmt(k.unicos)}</strong></td></tr>
+      <tr><td>Registros duplicados</td><td><strong>${fmt(k.duplicados)}</strong></td></tr>
+      <tr><td>% duplicación</td><td><strong>${pct}%</strong></td></tr>
+    </table>`;
+
+  let html='<table><thead><tr><th>Entidad</th><th>Clasif.</th><th>Tipo</th><th>Monto</th><th>Ciudad</th><th>Repeticiones</th></tr></thead><tbody>';
+  DATA.topDup.forEach(d=>{
+    html+=`<tr><td>${d.entidad}</td><td>${d.clasificacion}</td><td>${d.tipo}</td><td>${d.monto}</td><td>${d.ciudad}</td><td><strong>${fmt(d.repeticiones)}</strong></td></tr>`;
+  });
+  html+='</tbody></table>';
+  document.getElementById('dupTable').innerHTML=html;
+}
+
+function renderVarEnt(){
+  const sel=document.getElementById('selEnt').value;
+  if(!sel||!DATA.varEnt[sel]){
+    document.getElementById('varEntTable').innerHTML='<p style="color:var(--muted);padding:12px">Selecciona una entidad</p>';
+    return;
+  }
+  const items=DATA.varEnt[sel];
+  let html='<table><thead><tr><th>Nombre original</th><th>Cantidad</th><th>Ciudades</th></tr></thead><tbody>';
+  items.forEach(i=>{
+    html+=`<tr><td>${i.original}</td><td>${fmt(i.cantidad)}</td><td>${i.ciudades}</td></tr>`;
+  });
+  html+='</tbody></table>';
+  document.getElementById('varEntTable').innerHTML=html;
+}
+
+function renderVarCity(){
+  const sel=document.getElementById('selCity').value;
+  if(!sel||!DATA.varCity[sel]){
+    document.getElementById('varCityTable').innerHTML='<p style="color:var(--muted);padding:12px">Selecciona una ciudad</p>';
+    return;
+  }
+  const items=DATA.varCity[sel];
+  let html='<table><thead><tr><th>Nombre original</th><th>Cantidad</th><th>Entidades distintas</th></tr></thead><tbody>';
+  items.forEach(i=>{
+    html+=`<tr><td>${i.original}</td><td>${fmt(i.cantidad)}</td><td>${fmt(i.entidades)}</td></tr>`;
+  });
+  html+='</tbody></table>';
+  document.getElementById('varCityTable').innerHTML=html;
+}
+
+init();
+</script>
+</body>
+</html>

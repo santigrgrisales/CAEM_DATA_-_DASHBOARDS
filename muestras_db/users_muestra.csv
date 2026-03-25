@@ -1,0 +1,11 @@
+id,deleted,apellido,attemps,create_at,email,enabled,foto,locked,nombre,password,username
+1,b'\x00',apellido,0,,soporte@atixdigital.com,b'\x01',,b'\x00',Andres,$2a$10$MwPgnoSsTePO.Bt8MAy1hOG/WYNv5.tgyoxbZMi.2GoE24TWLZILC,usuarioAtix
+2,b'\x00',Castiblanco Contreras,0,,angelicaj.castiblanc@procesosycanje.com.co,b'\x01',,b'\x00',Angelica Johanna,$2a$10$G6/IvXoOZateFbqinIs6GOKF.nWE9AJzFbQ6HChw3tGs6MRdKQq86,admin
+3,b'\x00',Chaparro Lemus,0,2023-01-26,henry.chaparro@procesosycanje.com.co,b'\x01',,b'\x00',Henry,$2a$10$Oj0wY586A2bCLM2mCa5JIu3zQ1Sv32.r53DvnBSxxHN52biMxHn1i,HCHAPARRO
+4,b'\x00',Rodriguez Gonzalez,0,2023-01-26,dianac.rodriguez@procesosycanje.com.co,b'\x01',,b'\x00',Diana Carolina,$2a$10$OMv8QFM3OoS2URusnvnWxe2FweDCeBRHu.rvI9YBDWN1ov7wjOYuC,DRODRIGUEZ
+5,b'\x00',Rojas Sarmiento,0,2023-01-26,diana.rojas@procesosycanje.com.co,b'\x01',,b'\x00',Diana Paola,$2a$10$tVixaSPUX6oz3KOHvL.j/.k1XR1Dk3tw6bSpUi3UEk1SXD7i34sZ.,PROJAS
+6,b'\x00',Guerrero,0,2023-01-26,angelicaj.castiblanc@procesosycanje.com.co,b'\x01',,b'\x00',Mayra,$2a$10$1yfXaphK9a4fQ/nBTyYgWOswjD0FrXnMyncdtMhvTmHudqUbqtEWy,MGUERRERO
+7,b'\x00',COOPCENTRAL,0,2023-02-01,procesos.embargos@procesosycanje.com.co,b'\x01',,b'\x00',BANCO,$2a$10$wIdU7xwvhlpX3R9WatmGIuvwuGtJG83WNIqJOLzp1ngktB4K3blai,COOPCENTRAL_CONSULTAS
+8,b'\x00',REINA DIAZ,0,2023-04-29,angelicaj.castiblanc@procesosycanje.com.co,b'\x01',,b'\x00', BRAYAN ALFONSO,$2a$10$SiqwrpnkT2vldbE0zEeEauTBC5FPhcdC0OkOXazItuw7Tl8jaopOy,BREINA
+9,b'\x00',Galvis Quiroga,0,2023-04-29,sundary.galvis@procesosycanje.com.co,b'\x01',,b'\x01',Sundary Valentina,$2a$10$7vflmpGjIQPDGTWu21yON.QpJBQcBl/Pt.fXdaGCjuwEUAHQFKsOa,SGALVIS
+10,b'\x00',Lara Torres,0,2023-04-29,lucero.lara@procesosycanje.com.co,b'\x01',,b'\x01',Janneth ,$2a$10$TV0.ZQILTl1yUktg6VKX.eQrZJSyIks1l8TGbW8zShmtexmlNgjj2,JLARA
