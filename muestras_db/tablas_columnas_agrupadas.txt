@@ -1,0 +1,383 @@
+Tabla: authority
+  - name
+
+Tabla: bank_log
+  - fecha_registro
+  - numero_identificacion
+  - nombre_completo
+  - entidad_bancaria_id
+
+Tabla: carta_respuesta
+  - id
+  - descripcion
+  - path
+  - embargo_id
+
+Tabla: codigo_mapeo
+  - cuenta_judicial
+  - codigo_ciudad
+  - codigo_entidad
+  - correo
+
+Tabla: config_param
+  - name
+  - value
+
+Tabla: cuenta
+  - id
+  - estado
+  - fecha_creacion
+  - fecha_vencimiento
+  - monto_embargado
+  - num_cuenta
+  - saldo_cuenta_fecha
+  - sub_tipo_cuenta
+  - tipo_carta
+  - tipo_cuenta
+  - demandado_id
+
+Tabla: cuenta_aud
+  - id
+  - rev
+  - revtype
+  - estado
+  - fecha_creacion
+  - fecha_vencimiento
+  - monto_embargado
+  - num_cuenta
+  - saldo_cuenta_fecha
+  - sub_tipo_cuenta
+  - tipo_carta
+  - tipo_cuenta
+  - demandado_id
+
+Tabla: cuenta_reglas
+  - cuenta_id
+  - reglas
+
+Tabla: cuenta_reglas_aud
+  - rev
+  - cuenta_id
+  - reglas
+  - revtype
+
+Tabla: custom_revision_entity
+  - rev
+  - timestamp
+
+Tabla: datos_entidad
+  - id
+  - correo
+  - cuenta_judicial
+
+Tabla: db_sequence_entidad_bancaria
+  - next_val
+
+Tabla: demandado
+  - demandado_type
+  - id
+  - embargabilidad
+  - es_cliente
+  - estado
+  - expediente
+  - fecha_procesamiento
+  - identificacion
+  - mensaje_error
+  - mensaje_respuesta
+  - montoaembargar
+  - monto_embargado
+  - nombres
+  - page
+  - tipo_carta
+  - embargo_id
+  - notification_group_id
+  - tipo_identificacion_tipo
+  - is_excel_loaded
+
+Tabla: demandado_aud
+  - id
+  - rev
+  - demandado_type
+  - revtype
+  - embargabilidad
+  - es_cliente
+  - estado
+  - expediente
+  - fecha_procesamiento
+  - identificacion
+  - mensaje_error
+  - mensaje_respuesta
+  - montoaembargar
+  - monto_embargado
+  - nombres
+  - page
+  - tipo_carta
+  - embargo_id
+  - notification_group_id
+  - tipo_identificacion_tipo
+  - is_excel_loaded
+
+Tabla: demandado_expedientes
+  - demandado_id
+  - expedientes
+
+Tabla: demandado_expedientes_aud
+  - rev
+  - demandado_id
+  - expedientes
+  - revtype
+
+Tabla: demandante
+  - id
+  - identificacion
+  - nombres
+  - embargo_id
+  - tipo_identificacion_tipo
+
+Tabla: demandante_aud
+  - id
+  - rev
+  - revtype
+  - identificacion
+  - nombres
+  - embargo_id
+  - tipo_identificacion_tipo
+
+Tabla: document
+  - id
+  - folder
+  - id_file
+  - original_filename
+  - path
+  - upload_date
+
+Tabla: email_notification
+  - id
+  - attempt
+  - date_resp
+  - date_send
+  - file_resp_path
+  - file_send_path
+  - id_resp
+  - id_send
+  - message_resp
+  - message_send
+  - recipient_send
+  - sender_resp
+  - status
+  - status_detail
+  - subject_resp
+  - subject_send
+  - notification_group_id
+  - last_updated
+
+Tabla: embargo_sequence
+  - id
+
+Tabla: embargo_sequence_register
+  - date_id
+  - start_val
+
+Tabla: embargos
+  - id
+  - deleted
+  - ciudad
+  - confirmed_at
+  - correo
+  - corte
+  - create_at
+  - cuenta
+  - data_demandados_path
+  - direccion
+  - downloaded
+  - embargo_path
+  - entidad_remitente
+  - estado_embargo
+  - fecha_banco
+  - fecha_oficio
+  - fecha_recibido
+  - funcionario
+  - is_special
+  - modify_at
+  - monto
+  - observaciones
+  - oficio
+  - original_name_file
+  - process_error
+  - processed_at
+  - radicado_banco
+  - referencia
+  - response_path
+  - tipo_documento
+  - tipo_embargo
+  - tipo_respuesta
+  - assigned_to
+  - confirmed_by
+  - create_by_user
+  - entidad_bancaria_id
+  - codigo_alcance
+  - secondary_id
+  - nombre_oficio_final
+  - tipo_origen
+  - processed_by
+  - reconfirmed_at
+  - reconfirmed_by
+  - correo_fue_actualizado
+
+Tabla: embargos_aud
+  - id
+  - rev
+  - revtype
+  - ciudad
+  - confirmed_at
+  - correo
+  - corte
+  - create_at
+  - cuenta
+  - data_demandados_path
+  - direccion
+  - downloaded
+  - embargo_path
+  - entidad_remitente
+  - estado_embargo
+  - fecha_banco
+  - fecha_oficio
+  - fecha_recibido
+  - funcionario
+  - is_special
+  - modify_at
+  - monto
+  - observaciones
+  - oficio
+  - original_name_file
+  - process_error
+  - processed_at
+  - radicado_banco
+  - referencia
+  - response_path
+  - tipo_documento
+  - tipo_embargo
+  - tipo_respuesta
+  - assigned_to
+  - confirmed_by
+  - create_by_user
+  - entidad_bancaria_id
+  - codigo_alcance
+  - secondary_id
+  - nombre_oficio_final
+  - tipo_origen
+  - processed_by
+  - reconfirmed_at
+  - reconfirmed_by
+  - correo_fue_actualizado
+
+Tabla: entidad_bancaria
+  - id
+  - descripcion
+  - nombre
+  - report_email
+
+Tabla: hibernate_sequence
+  - next_val
+
+Tabla: historial
+  - anio
+  - monto_coactivo
+  - monto_judicial
+  - salario_min
+
+Tabla: letter_template
+  - tipo_carta
+  - path
+  - entidad_bancaria_id
+
+Tabla: notification_group
+  - id
+  - attempt
+  - current_type
+  - external_id
+  - status
+  - tipo_proceso
+  - embargo_id
+  - has_client
+
+Tabla: notification_group_documents
+  - notification_group_id
+  - documents_id
+
+Tabla: pendiente_mover_ftp
+  - id
+  - movera
+  - mover_de
+  - to_delete
+
+Tabla: physical_notification
+  - id
+  - radicado
+  - status
+  - guia_id
+  - notification_group_id
+  - delivery_date
+
+Tabla: report_email_register
+  - id
+  - email_to
+  - end_date
+  - init_date
+  - entidad_bancaria_id
+  - status
+
+Tabla: secondary_embargo_id_register
+  - date
+  - last_val
+  - entidad_bancaria_id
+
+Tabla: tipo_embargo
+  - id
+  - tipo
+
+Tabla: tipo_identificacion
+  - tipo
+  - id_conexion
+
+Tabla: tipo_identificacion_aud
+  - tipo
+  - rev
+  - revtype
+  - id_conexion
+
+Tabla: trabajo
+  - id
+  - created_at
+  - estado
+  - exitosos
+  - fallidos
+  - finished_at
+  - id_externo
+  - last_modified_at
+  - sub_tipo
+  - tipo
+  - total
+
+Tabla: user_authority
+  - user_id
+  - authority_name
+
+Tabla: users
+  - id
+  - deleted
+  - apellido
+  - attemps
+  - create_at
+  - email
+  - enabled
+  - foto
+  - locked
+  - nombre
+  - password
+  - username
+
+Tabla: users_tipo_emb
+  - usuario_id
+  - tipo_emb_id
+
