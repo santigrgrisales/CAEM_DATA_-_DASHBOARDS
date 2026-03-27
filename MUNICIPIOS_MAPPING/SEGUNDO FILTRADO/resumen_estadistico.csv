@@ -1,0 +1,32 @@
+tipo,valor
+total_registros,2414
+autoaprobados,867
+ignorados,164
+pendientes_finales,1383
+metodo::sin_metodo,1547
+metodo::fuzzy_corto_fuerte,289
+metodo::core_oficial_exacto,260
+metodo::alias_manual_exacto,146
+metodo::core_oficial_exacto_depto,75
+metodo::manual_bogota,52
+metodo::fuzzy_corto_con_depto,45
+autoaprobados_depto::VALLE DEL CAUCA,231
+autoaprobados_depto::SANTANDER,60
+autoaprobados_depto::NORTE DE SANTANDER,57
+"autoaprobados_depto::BOGOTÁ, D.C.",54
+autoaprobados_depto::BOLÍVAR,52
+autoaprobados_depto::CUNDINAMARCA,43
+autoaprobados_depto::ANTIOQUIA,36
+autoaprobados_depto::META,31
+autoaprobados_depto::NARIÑO,29
+autoaprobados_depto::CESAR,28
+autoaprobados_depto::LA GUAJIRA,26
+autoaprobados_depto::HUILA,23
+autoaprobados_depto::CASANARE,22
+autoaprobados_depto::ATLÁNTICO,20
+autoaprobados_depto::MAGDALENA,20
+autoaprobados_depto::TOLIMA,19
+autoaprobados_depto::RISARALDA,15
+"autoaprobados_depto::ARCHIPIÉLAGO DE SAN ANDRÉS, PROVIDENCIA Y SANTA CATALINA",15
+autoaprobados_depto::CALDAS,15
+autoaprobados_depto::CAUCA,11

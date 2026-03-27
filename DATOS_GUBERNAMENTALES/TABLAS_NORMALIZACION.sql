@@ -25,7 +25,7 @@ CREATE TABLE caem_clean.dim_entidades (
 
 -- ---------------------------------------
 CREATE TABLE caem_clean.mapping_municipios (
-    id SERIAL PRIMARY KEY,
+    id INT AUTO_INCREMENT PRIMARY KEY,
     valor_original VARCHAR(255),
     valor_normalizado VARCHAR(150),
     codigo_dane VARCHAR(5),

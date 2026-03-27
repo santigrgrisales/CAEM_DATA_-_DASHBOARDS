@@ -1,0 +1,868 @@
+valor_original,valor_normalizado,codigo_dane,metodo,confianza,revisado
+MEDILLIN ANTIOQUIA,MEDILLIN ANTIOQUIA,05001,fuzzy_corto_con_depto,95.5,True
+APANTADÓ ANTIOQUIA,APANTADO ANTIOQUIA,05045,fuzzy_corto_con_depto,95.5,True
+APARATADO ANTIOQUIA,APARATADO ANTIOQUIA,05045,fuzzy_corto_fuerte,99.0,True
+BOLIVAR - ANTIOQUIA,BOLIVAR ANTIOQUIA,05101,core_oficial_exacto_depto,100.0,True
+BOLIVAR- ANTIOQUIA,BOLIVAR ANTIOQUIA,05101,core_oficial_exacto_depto,100.0,True
+CIUDAD BOLIVAR -ANTIOQUIA,CIUDAD BOLIVAR ANTIOQUIA,05101,core_oficial_exacto_depto,100.0,True
+Ciudad Bolívar Antioquia,CIUDAD BOLIVAR ANTIOQUIA,05101,core_oficial_exacto_depto,100.0,True
+"CALDAS , ANTIOQUIA",CALDAS ANTIOQUIA,05129,core_oficial_exacto_depto,100.0,True
+CALDAS - ANTIOQUIA,CALDAS ANTIOQUIA,05129,core_oficial_exacto_depto,100.0,True
+CALDAS ANTIOQUIA,CALDAS ANTIOQUIA,05129,core_oficial_exacto_depto,100.0,True
+"CALDAS, ANTIOQUIA",CALDAS ANTIOQUIA,05129,core_oficial_exacto_depto,100.0,True
+"Caldas ,Antioquia",CALDAS ANTIOQUIA,05129,core_oficial_exacto_depto,100.0,True
+Caldas -Antioquia,CALDAS ANTIOQUIA,05129,core_oficial_exacto_depto,100.0,True
+Caldas Antioquia,CALDAS ANTIOQUIA,05129,core_oficial_exacto_depto,100.0,True
+"Caldas Antioquia ,",CALDAS ANTIOQUIA,05129,core_oficial_exacto_depto,100.0,True
+Caldas-Antioquia,CALDAS ANTIOQUIA,05129,core_oficial_exacto_depto,100.0,True
+CARMEN DE VIBORAL ANTIOQUIA,CARMEN DE VIBORAL ANTIOQUIA,05148,alias_manual_exacto,99.0,True
+CAROLINA DEL PRICIPE,CAROLINA DEL PRICIPE,05150,fuzzy_corto_fuerte,96.97,True
+CAROLINA DEL PRINCIPE ANTIOQUIA,CAROLINA DEL PRINCIPE ANTIOQUIA,05150,alias_manual_exacto,99.0,True
+CAROLINA DEL PRÍNCIPE-ANTIOQUIA,CAROLINA DEL PRINCIPE ANTIOQUIA,05150,alias_manual_exacto,99.0,True
+"Carolina del Principe, Antioquia",CAROLINA DEL PRINCIPE ANTIOQUIA,05150,alias_manual_exacto,99.0,True
+Carolina del Príncipe,CAROLINA DEL PRINCIPE,05150,alias_manual_exacto,99.0,True
+Carolina del Príncipe - Antioquia,CAROLINA DEL PRINCIPE ANTIOQUIA,05150,alias_manual_exacto,99.0,True
+Carolina del Príncipe- Antioquia,CAROLINA DEL PRINCIPE ANTIOQUIA,05150,alias_manual_exacto,99.0,True
+"Carolina del Príncipe- Antioquia ,",CAROLINA DEL PRINCIPE ANTIOQUIA,05150,alias_manual_exacto,99.0,True
+CAUCACIA,CAUCACIA,05154,alias_manual_exacto,99.0,True
+CAUCACIA  ANTIOQUIA,CAUCACIA ANTIOQUIA,05154,alias_manual_exacto,99.0,True
+Caucasia de Antioquia,CAUCASIA DE ANTIOQUIA,05154,core_oficial_exacto,100.0,True
+DON MATIAS - ANTIOQUIA,DON MATIAS ANTIOQUIA,05237,fuzzy_corto_fuerte,99.0,True
+ENVIAGADO ANTIOQUIA,ENVIAGADO ANTIOQUIA,05266,fuzzy_corto_fuerte,99.0,True
+tagüí - Antioquia,TAGUI ANTIOQUIA,05360,fuzzy_corto_fuerte,98.91,True
+CEJA ANTIOQUIA,CEJA ANTIOQUIA,05376,core_oficial_exacto,100.0,True
+PUERTO FRIUNFO ANTIOQUIA,PUERTO FRIUNFO ANTIOQUIA,05591,fuzzy_corto_fuerte,99.0,True
+EL RETIRO ANTIOQUIA,EL RETIRO ANTIOQUIA,05607,core_oficial_exacto,100.0,True
+RIONEGRO de Antioquia,RIONEGRO DE ANTIOQUIA,05615,core_oficial_exacto_depto,100.0,True
+SAN GERONIMO - ANTIOQUIA,SAN GERONIMO ANTIOQUIA,05656,fuzzy_corto_fuerte,99.0,True
+BARANQUILLA ATLÁNTICO,BARANQUILLA ATLANTICO,08001,fuzzy_corto_fuerte,99.0,True
+BARRAANQUILLA,BARRAANQUILLA,08001,fuzzy_corto_fuerte,96.0,True
+BARRANQUILLA1,BARRANQUILLA1,08001,fuzzy_corto_fuerte,96.0,True
+BARRANQUILLAB,BARRANQUILLAB,08001,fuzzy_corto_fuerte,96.0,True
+BARRANQUILLLA,BARRANQUILLLA,08001,fuzzy_corto_fuerte,96.0,True
+BARRAQNQUILLA,BARRAQNQUILLA,08001,fuzzy_corto_fuerte,96.0,True
+Barrranquilla,BARRRANQUILLA,08001,fuzzy_corto_fuerte,96.0,True
+de Galapa Atlántico,DE GALAPA ATLANTICO,08296,core_oficial_exacto,100.0,True
+PALMAR DE VARELA DE ATLANTICO,PALMAR DE VARELA DE ATLANTICO,08520,core_oficial_exacto,100.0,True
+PALONUEVO ATLÁNTICO,PALONUEVO ATLANTICO,08558,fuzzy_corto_fuerte,96.89,True
+PUERTO COLOIMBIA,PUERTO COLOIMBIA,08573,fuzzy_corto_fuerte,96.77,True
+PUERTO DE COLOMBIA,PUERTO DE COLOMBIA,08573,core_oficial_exacto,100.0,True
+PUERTOCOLOMBIA,PUERTOCOLOMBIA,08573,fuzzy_corto_fuerte,96.55,True
+puertocolombia atlantico,PUERTOCOLOMBIA ATLANTICO,08573,fuzzy_corto_fuerte,99.0,True
+SABANA GRANDE  ATLANTICO,SABANA GRANDE ATLANTICO,08634,fuzzy_corto_fuerte,99.0,True
+SABANAGRANDE DEL ATLÁNTICO,SABANAGRANDE DEL ATLANTICO,08634,core_oficial_exacto,100.0,True
+anto Tomás Atlántico,ANTO TOMAS ATLANTICO,08685,fuzzy_corto_fuerte,99.0,True
+SOLEDADA ATLANTICO,SOLEDADA ATLANTICO,08758,fuzzy_corto_fuerte,99.0,True
+Soledadd Atlántico,SOLEDADD ATLANTICO,08758,fuzzy_corto_fuerte,99.0,True
+TURBARA ATLANTICO,TURBARA ATLANTICO,08832,fuzzy_corto_fuerte,99.0,True
+BGOTÁ,BGOTA,11001,manual_bogota,99.5,True
+BOG40OTÁ D.C,BOG40OTA DC,11001,fuzzy_corto_con_depto,93.71,True
+BOGOT,BOGOT,11001,manual_bogota,99.5,True
+BOGOTA,BOGOTA,11001,manual_bogota,99.5,True
+BOGOTA  D.C,BOGOTA DC,11001,manual_bogota,99.5,True
+BOGOTA D C,BOGOTA DC,11001,manual_bogota,99.5,True
+BOGOTA D.C  890847,BOGOTA DC 890847,11001,manual_bogota,99.5,True
+BOGOTA Q,BOGOTA Q,11001,manual_bogota,99.5,True
+BOGOTA SISSCO - 2024 - CS - 005571,BOGOTA SISSCO 2024 CS 005571,11001,manual_bogota,99.5,True
+BOGOTA.D.C,BOGOTA DC,11001,manual_bogota,99.5,True
+BOGOTAD.C,BOGOTAD C,11001,manual_bogota,99.5,True
+BOGOTASCOTIABANK -,BOGOTASCOTIABANK,11001,manual_bogota,99.5,True
+BOGOTA|,BOGOTA,11001,manual_bogota,99.5,True
+BOGOTO,BOGOTO,11001,manual_bogota,99.5,True
+BOGOT´Á,BOGOT A,11001,manual_bogota,99.5,True
+BOGOTÁ,BOGOTA,11001,manual_bogota,99.5,True
+"BOGOTÁ  , D. C.",BOGOTA DC,11001,manual_bogota,99.5,True
+"BOGOTÁ , D.C.",BOGOTA DC,11001,manual_bogota,99.5,True
+BOGOTÁ . D.C.,BOGOTA DC,11001,manual_bogota,99.5,True
+BOGOTÁ 11-2-2023-064189,BOGOTA 11 2 2023 064189,11001,manual_bogota,99.5,True
+BOGOTÁ D,BOGOTA D,11001,manual_bogota,99.5,True
+BOGOTÁ D.,BOGOTA D,11001,manual_bogota,99.5,True
+BOGOTÁ D. C,BOGOTA DC,11001,manual_bogota,99.5,True
+"BOGOTÁ D. C. ,",BOGOTA DC,11001,manual_bogota,99.5,True
+BOGOTÁ D.C,BOGOTA DC,11001,manual_bogota,99.5,True
+BOGOTÁ D.C - LOCALIDAD SUBA,BOGOTA DC LOCALIDAD SUBA,11001,manual_bogota,99.5,True
+BOGOTÁ D.C..,BOGOTA DC,11001,manual_bogota,99.5,True
+BOGOTÁ D.C40,BOGOTA D C40,11001,manual_bogota,99.5,True
+BOGOTÁ DC,BOGOTA DC,11001,manual_bogota,99.5,True
+BOGOTÁ DC 76408,BOGOTA DC 76408,11001,manual_bogota,99.5,True
+Bogotá,BOGOTA,11001,manual_bogota,99.5,True
+Bogotá  D.C.,BOGOTA DC,11001,manual_bogota,99.5,True
+"Bogotá ,",BOGOTA,11001,manual_bogota,99.5,True
+"Bogotá , D.",BOGOTA D,11001,manual_bogota,99.5,True
+"Bogotá , D. C",BOGOTA DC,11001,manual_bogota,99.5,True
+"Bogotá , D. C.",BOGOTA DC,11001,manual_bogota,99.5,True
+"Bogotá , D. C. ,",BOGOTA DC,11001,manual_bogota,99.5,True
+"Bogotá , D.C",BOGOTA DC,11001,manual_bogota,99.5,True
+"Bogotá , D.C.",BOGOTA DC,11001,manual_bogota,99.5,True
+"Bogotá , D.C. ,",BOGOTA DC,11001,manual_bogota,99.5,True
+Bogotá .,BOGOTA,11001,manual_bogota,99.5,True
+Bogotá D. C.,BOGOTA DC,11001,manual_bogota,99.5,True
+Bogotá D.C,BOGOTA DC,11001,manual_bogota,99.5,True
+"Bogotá D.C ,",BOGOTA DC,11001,manual_bogota,99.5,True
+"Bogotá D.C , Señor ( a )",BOGOTA DC SENOR A,11001,manual_bogota,99.5,True
+"Bogotá D.C Duitama , Boyacá",BOGOTA DC DUITAMA BOYACA,11001,manual_bogota,99.5,True
+Bogotá D.C.,BOGOTA DC,11001,manual_bogota,99.5,True
+"Bogotá D.C. ,",BOGOTA DC,11001,manual_bogota,99.5,True
+Bogotá D.C|,BOGOTA DC,11001,manual_bogota,99.5,True
+Bogotá DC .,BOGOTA DC,11001,manual_bogota,99.5,True
+KENNEDY - BOGOTA,KENNEDY BOGOTA,11001,manual_bogota,99.5,True
+OGOTÁ D.C,OGOTA DC,11001,fuzzy_corto_fuerte,98.91,True
+Puerto Bogotá D.C.,PUERTO BOGOTA DC,11001,manual_bogota,99.5,True
+|BOGOTÁ D.C,BOGOTA DC,11001,manual_bogota,99.5,True
+CARAGENA DE INDIAS,CARAGENA DE INDIAS,13001,fuzzy_corto_fuerte,96.77,True
+CARTAG ENA DE INDIAS,CARTAG ENA DE INDIAS,13001,fuzzy_corto_fuerte,96.97,True
+CARTAGEANA DE INDIAS,CARTAGEANA DE INDIAS,13001,fuzzy_corto_fuerte,96.97,True
+CARTAGENA DE INDAS,CARTAGENA DE INDAS,13001,fuzzy_corto_fuerte,96.77,True
+CARTAGENA DE INDIA,CARTAGENA DE INDIA,13001,fuzzy_corto_fuerte,96.77,True
+CARTAGENA DE INDIAS  D.T Y C - BOLIVAR,CARTAGENA DE INDIAS D T Y C BOLIVAR,13001,fuzzy_corto_fuerte,99.0,True
+CRTAGENA DE INDIAS,CRTAGENA DE INDIAS,13001,fuzzy_corto_fuerte,96.77,True
+Cartagena de Indias D.,CARTAGENA DE INDIAS D,13001,core_oficial_exacto,100.0,True
+ALTOS DE ROSARIO,ALTOS DE ROSARIO,13030,core_oficial_exacto,100.0,True
+CORDOBA BOLIVAR,CORDOBA BOLIVAR,13212,core_oficial_exacto_depto,100.0,True
+CÓRDOBA BOLÍVAR,CORDOBA BOLIVAR,13212,core_oficial_exacto_depto,100.0,True
+CÓRDOBA – BOLÍVAR,CORDOBA BOLIVAR,13212,core_oficial_exacto_depto,100.0,True
+"Córdoba , Bolívar",CORDOBA BOLIVAR,13212,core_oficial_exacto_depto,100.0,True
+Córdoba - Bolívar,CORDOBA BOLIVAR,13212,core_oficial_exacto_depto,100.0,True
+MUNICIPAL DE CORDOBA - BOLIVAR,MUNICIPAL DE CORDOBA BOLIVAR,13212,core_oficial_exacto_depto,100.0,True
+CLEMANCIA BOLIVAR,CLEMANCIA BOLIVAR,13222,fuzzy_corto_fuerte,96.89,True
+CLEMECIA BOLIVAR,CLEMECIA BOLIVAR,13222,fuzzy_corto_fuerte,99.0,True
+CLEMEMENCIA-BOLIVAR,CLEMEMENCIA BOLIVAR,13222,fuzzy_corto_fuerte,98.0,True
+CLEMEMNCIA-BOLIVAR,CLEMEMNCIA BOLIVAR,13222,fuzzy_corto_fuerte,99.0,True
+EL CARMEN DE BOLOIVAR,EL CARMEN DE BOLOIVAR,13244,fuzzy_corto_fuerte,96.55,True
+El Carmen de Bolíva,EL CARMEN DE BOLIVA,13244,fuzzy_corto_fuerte,96.3,True
+PEÑÓN - BOLÍVAR,PENON BOLIVAR,13268,core_oficial_exacto_depto,100.0,True
+DE MAGANGUÉ BOLÍVAR,DE MAGANGUE BOLIVAR,13430,core_oficial_exacto,100.0,True
+MANGAGUE BOLIVAR,MANGAGUE BOLIVAR,13430,fuzzy_corto_con_depto,95.5,True
+MARANGUE BOLIVAR,MARANGUE BOLIVAR,13430,fuzzy_corto_con_depto,95.5,True
+DE MOMPOX BOLÍVAR,DE MOMPOX BOLIVAR,13468,alias_manual_exacto,99.0,True
+"MOMPOS , BOLÍVAR",MOMPOS BOLIVAR,13468,alias_manual_exacto,99.0,True
+MOMPOS BOLIVAR,MOMPOS BOLIVAR,13468,alias_manual_exacto,99.0,True
+MOMPOX BOLIVAR,MOMPOX BOLIVAR,13468,alias_manual_exacto,99.0,True
+MOMPÓX - BOLÍVAR,MOMPOX BOLIVAR,13468,alias_manual_exacto,99.0,True
+Mompox,MOMPOX,13468,alias_manual_exacto,99.0,True
+"Mompox , Bolívar",MOMPOX BOLIVAR,13468,alias_manual_exacto,99.0,True
+Mompox-Bolívar,MOMPOX BOLIVAR,13468,alias_manual_exacto,99.0,True
+Mompós - Bolívar,MOMPOS BOLIVAR,13468,alias_manual_exacto,99.0,True
+REGIDOS BOLIVAR,REGIDOS BOLIVAR,13580,fuzzy_corto_con_depto,93.71,True
+SAN JUAN  NEPOMUCENEO BOLIVAR,SAN JUAN NEPOMUCENEO BOLIVAR,13657,fuzzy_corto_fuerte,99.0,True
+SAN JUAN DE NEPOMUCENO,SAN JUAN DE NEPOMUCENO,13657,core_oficial_exacto,100.0,True
+SAN JUAN NEPOMUNCENO BOLIVAR,SAN JUAN NEPOMUNCENO BOLIVAR,13657,fuzzy_corto_fuerte,99.0,True
+SANJUAN NEPOMUCENO,SANJUAN NEPOMUCENO,13657,fuzzy_corto_fuerte,97.3,True
+san juan de nepomuceno bolivar,SAN JUAN DE NEPOMUCENO BOLIVAR,13657,core_oficial_exacto,100.0,True
+SANTA CATLINA BOLIVAR,SANTA CATLINA BOLIVAR,13673,fuzzy_corto_fuerte,99.0,True
+SANTA ROSA DE SUR DE BOLIVAR,SANTA ROSA DE SUR DE BOLIVAR,13688,core_oficial_exacto,100.0,True
+SANTA ROSA SUR BOLIVAR,SANTA ROSA SUR BOLIVAR,13688,core_oficial_exacto,100.0,True
+Santa Rosa Sur,SANTA ROSA SUR,13688,core_oficial_exacto,100.0,True
+Santa Rosa Sur - Bolívar,SANTA ROSA SUR BOLIVAR,13688,core_oficial_exacto,100.0,True
+"Santa Rosa Sur - Bolívar ,",SANTA ROSA SUR BOLIVAR,13688,core_oficial_exacto,100.0,True
+Santa Rosa del Sur de Bolívar,SANTA ROSA DEL SUR DE BOLIVAR,13688,core_oficial_exacto,100.0,True
+SOPLAVENTO BOLIVAR,SOPLAVENTO BOLIVAR,13760,fuzzy_corto_fuerte,99.0,True
+TALAIGUA NUEVA - BOLIVAR,TALAIGUA NUEVA BOLIVAR,13780,fuzzy_corto_fuerte,99.0,True
+TIQUISO BOLIVAR,TIQUISO BOLIVAR,13810,fuzzy_corto_fuerte,99.0,True
+TURBAO BOLIVAR,TURBAO BOLIVAR,13836,fuzzy_corto_fuerte,99.0,True
+MUNICIPAL DE TURBANA BOLIVAR,MUNICIPAL DE TURBANA BOLIVAR,13838,core_oficial_exacto,100.0,True
+Briceño,BRICENO,15106,fuzzy_corto_fuerte,99.0,True
+CHINQUINQUIRÁ,CHINQUINQUIRA,15176,fuzzy_corto_fuerte,96.0,True
+JERICÓ,JERICO,15368,fuzzy_corto_fuerte,99.0,True
+VILLA DE LEIVA - BOYACÁ,VILLA DE LEIVA BOYACA,15407,fuzzy_corto_fuerte,98.91,True
+DE SAMACÁ - BOYACÁ,DE SAMACA BOYACA,15646,core_oficial_exacto,100.0,True
+SAN LUIS GACENO BOYACÁ,SAN LUIS GACENO BOYACA,15667,core_oficial_exacto,100.0,True
+SOGAMOSOS BOYACA,SOGAMOSOS BOYACA,15759,fuzzy_corto_fuerte,99.0,True
+SOGAMOSOS DE BOYACA,SOGAMOSOS DE BOYACA,15759,fuzzy_corto_fuerte,99.0,True
+TIBABOSA-BOYACA,TIBABOSA BOYACA,15806,fuzzy_corto_con_depto,95.5,True
+MANZIALES CALDAS,MANZIALES CALDAS,17001,fuzzy_corto_fuerte,96.89,True
+CHNCHINA-CALDAS,CHNCHINA CALDAS,17174,fuzzy_corto_fuerte,99.0,True
+de Chinchiná - Caldas,DE CHINCHINA CALDAS,17174,core_oficial_exacto,100.0,True
+DORADA,DORADA,17380,alias_manual_exacto,99.0,True
+DORADA CALDAS,DORADA CALDAS,17380,alias_manual_exacto,99.0,True
+"Dorada , Caldas",DORADA CALDAS,17380,alias_manual_exacto,99.0,True
+Dorada Caldas,DORADA CALDAS,17380,alias_manual_exacto,99.0,True
+Dorada- Caldas,DORADA CALDAS,17380,alias_manual_exacto,99.0,True
+Dorada-Caldas,DORADA CALDAS,17380,alias_manual_exacto,99.0,True
+L a Dorada Caldas,L A DORADA CALDAS,17380,fuzzy_corto_fuerte,99.0,True
+MERCED CALDAS,MERCED CALDAS,17388,core_oficial_exacto,100.0,True
+SAN JOSÉ DE CALDAS,SAN JOSE DE CALDAS,17665,core_oficial_exacto,100.0,True
+MUNICIPAL VILLAMARÍA CALDAS,MUNICIPAL VILLAMARIA CALDAS,17873,core_oficial_exacto,100.0,True
+Municipal de Villamaría Caldas,MUNICIPAL DE VILLAMARIA CALDAS,17873,core_oficial_exacto,100.0,True
+VILLARMARÍA CALDAS,VILLARMARIA CALDAS,17873,fuzzy_corto_fuerte,99.0,True
+SAN VICENTE DE CAGUAN,SAN VICENTE DE CAGUAN,18753,core_oficial_exacto,100.0,True
+VALPARAISO,VALPARAISO,18860,fuzzy_corto_fuerte,99.0,True
+FLORENCIA,FLORENCIA,19290,fuzzy_corto_fuerte,99.0,True
+MERCEDERES-CAUCA,MERCEDERES CAUCA,19450,fuzzy_corto_fuerte,98.0,True
+MORALES,MORALES,19473,fuzzy_corto_fuerte,99.0,True
+PAEZ,PAEZ,19517,fuzzy_corto_fuerte,99.0,True
+PENDAMÓ TUNIÁ CAUCA,PENDAMO TUNIA CAUCA,19548,fuzzy_corto_fuerte,99.0,True
+PIENDAMO TULUA CAUCA,PIENDAMO TULUA CAUCA,19548,fuzzy_corto_con_depto,93.71,True
+"Puerto teja , Cauca",PUERTO TEJA CAUCA,19573,fuzzy_corto_fuerte,99.0,True
+de Puerto Tejada .Cauca,DE PUERTO TEJADA CAUCA,19573,core_oficial_exacto,100.0,True
+ROSA CAUCA,ROSA CAUCA,19622,fuzzy_corto_fuerte,96.89,True
+SANTA ROSA,SANTA ROSA,19701,fuzzy_corto_fuerte,99.0,True
+Santa Rosa del,SANTA ROSA DEL,19701,fuzzy_corto_fuerte,99.0,True
+AGUSTIN CEDAZZI - CESAR,AGUSTIN CEDAZZI CESAR,20013,fuzzy_corto_fuerte,99.0,True
+CODAZZI,CODAZZI,20013,alias_manual_exacto,99.0,True
+CODAZZI  CESAR,CODAZZI CESAR,20013,alias_manual_exacto,99.0,True
+CODAZZI CESAR,CODAZZI CESAR,20013,alias_manual_exacto,99.0,True
+Codazzi - Cesar,CODAZZI CESAR,20013,alias_manual_exacto,99.0,True
+Codazzi – Cesar,CODAZZI CESAR,20013,alias_manual_exacto,99.0,True
+MUNICIPAL DE AGUSTIN CODAZZI CESAR,MUNICIPAL DE AGUSTIN CODAZZI CESAR,20013,core_oficial_exacto,100.0,True
+BECERIIL CESAR,BECERIIL CESAR,20045,fuzzy_corto_con_depto,95.5,True
+BECERRIRL CESAR,BECERRIRL CESAR,20045,fuzzy_corto_fuerte,99.0,True
+BECERRÍ CESAR,BECERRI CESAR,20045,fuzzy_corto_fuerte,99.0,True
+CURAMANI CESAR,CURAMANI CESAR,20228,fuzzy_corto_con_depto,95.5,True
+COPEY - CESAR,COPEY CESAR,20238,core_oficial_exacto,100.0,True
+COPEY CESAR,COPEY CESAR,20238,core_oficial_exacto,100.0,True
+COPEY-CESAR,COPEY CESAR,20238,core_oficial_exacto,100.0,True
+"PASO , CESAR",PASO CESAR,20250,core_oficial_exacto,100.0,True
+PASO CESAR,PASO CESAR,20250,core_oficial_exacto,100.0,True
+PASO-CESAR,PASO CESAR,20250,core_oficial_exacto,100.0,True
+JAGUA DE IBIRICO,JAGUA DE IBIRICO,20400,core_oficial_exacto,100.0,True
+JAGUA DE IBIRICO ( CESAR ),JAGUA DE IBIRICO CESAR,20400,core_oficial_exacto,100.0,True
+JAGUA DE IBIRICO CESAR,JAGUA DE IBIRICO CESAR,20400,core_oficial_exacto,100.0,True
+"JUAGUA DE IBIRICO, CESAR",JUAGUA DE IBIRICO CESAR,20400,fuzzy_corto_fuerte,99.0,True
+LA  JAGUA IBIRICO - CESAR,LA JAGUA IBIRICO CESAR,20400,core_oficial_exacto,100.0,True
+LA JAGUA DE IBIRICO DE CESAR,LA JAGUA DE IBIRICO DE CESAR,20400,core_oficial_exacto,100.0,True
+LA JAGUA DE IBÉRICA CESAR,LA JAGUA DE IBERICA CESAR,20400,fuzzy_corto_con_depto,92.62,True
+LA JAGUA IBIRICO,LA JAGUA IBIRICO,20400,core_oficial_exacto,100.0,True
+LA JUAGUA DE IBIRICO CESAR,LA JUAGUA DE IBIRICO CESAR,20400,fuzzy_corto_fuerte,99.0,True
+PAZ DE CESAR,PAZ DE CESAR,20621,core_oficial_exacto_depto,100.0,True
+SAN MARTIN DEL CESAR,SAN MARTIN DEL CESAR,20770,core_oficial_exacto_depto,100.0,True
+CANALATE - CORDOBA,CANALATE CORDOBA,23090,fuzzy_corto_con_depto,95.5,True
+CANALETA-CORDOBA,CANALETA CORDOBA,23090,fuzzy_corto_con_depto,95.5,True
+Municipal Chinú Córdoba,MUNICIPAL CHINU CORDOBA,23182,core_oficial_exacto,100.0,True
+SAN ANDRÉS SOTAVENTO,SAN ANDRES SOTAVENTO,23670,core_oficial_exacto,100.0,True
+SAN BERNADO DEL VIENTO,SAN BERNADO DEL VIENTO,23675,fuzzy_corto_fuerte,97.3,True
+SAN CARLOS,SAN CARLOS,23678,fuzzy_corto_fuerte,99.0,True
+SAN CARLÑOS CÓRDOBA,SAN CARLNOS CORDOBA,23678,fuzzy_corto_fuerte,99.0,True
+TIERRAALTA CORDOBA,TIERRAALTA CORDOBA,23807,fuzzy_corto_fuerte,99.0,True
+TIERRALATA-CORDOBA,TIERRALATA CORDOBA,23807,fuzzy_corto_fuerte,99.0,True
+ANAPOINA CUNDINAMARCA,ANAPOINA CUNDINAMARCA,25035,fuzzy_corto_con_depto,95.5,True
+CAPARRAP CUNDINAMARCA,CAPARRAP CUNDINAMARCA,25148,fuzzy_corto_fuerte,99.0,True
+CARMEN DE CURUPA CUNDINAMARCA,CARMEN DE CURUPA CUNDINAMARCA,25154,fuzzy_corto_fuerte,99.0,True
+DE CARMEN DE CARUPA CUNDINAMARCA,DE CARMEN DE CARUPA CUNDINAMARCA,25154,core_oficial_exacto,100.0,True
+CHA Cundinamarca,CHA CUNDINAMARCA,25175,fuzzy_corto_con_depto,93.71,True
+CHPAQUE-CUNDINAMARCA,CHPAQUE CUNDINAMARCA,25178,fuzzy_corto_fuerte,99.0,True
+PEÑÓN CUNDINAMARCA,PENON CUNDINAMARCA,25258,core_oficial_exacto_depto,100.0,True
+ROSAL CUNDINAMARCA,ROSAL CUNDINAMARCA,25260,core_oficial_exacto,100.0,True
+FACATIVA CUNDINAMARCA,FACATIVA CUNDINAMARCA,25269,fuzzy_corto_fuerte,96.89,True
+FUAGASUGA CUNDINAMARCA,FUAGASUGA CUNDINAMARCA,25290,fuzzy_corto_fuerte,99.0,True
+Fusagasugá    de Cundinamarca,FUSAGASUGA DE CUNDINAMARCA,25290,core_oficial_exacto,100.0,True
+GUTIEREZ CUNDINAMARCA,GUTIEREZ CUNDINAMARCA,25339,fuzzy_corto_fuerte,99.0,True
+CALERA,CALERA,25377,core_oficial_exacto,100.0,True
+MUNICIPAL DE LA CALERA,MUNICIPAL DE LA CALERA,25377,core_oficial_exacto,100.0,True
+Mesa Cundinamarca,MESA CUNDINAMARCA,25386,core_oficial_exacto,100.0,True
+La Vega,LA VEGA,25402,fuzzy_corto_fuerte,99.0,True
+VEGA,VEGA,25402,fuzzy_corto_fuerte,99.0,True
+"VEGA , CUNDINAMARCA",VEGA CUNDINAMARCA,25402,core_oficial_exacto_depto,100.0,True
+VEGA CUNDINAMARCA,VEGA CUNDINAMARCA,25402,core_oficial_exacto_depto,100.0,True
+LANGUAZAQUE CUNDINAMARCA,LANGUAZAQUE CUNDINAMARCA,25407,fuzzy_corto_fuerte,98.91,True
+LEGUAZAQUE CUNDINAMARCA,LEGUAZAQUE CUNDINAMARCA,25407,fuzzy_corto_fuerte,99.0,True
+MADID CUNDINAMARCA,MADID CUNDINAMARCA,25430,fuzzy_corto_fuerte,98.91,True
+NARIÑO - CUNDINAMARCA,NARINO CUNDINAMARCA,25483,core_oficial_exacto_depto,100.0,True
+NARIÑO -CUNDINAMARCA,NARINO CUNDINAMARCA,25483,core_oficial_exacto_depto,100.0,True
+NARIÑO CUNDINAMARCA,NARINO CUNDINAMARCA,25483,core_oficial_exacto_depto,100.0,True
+Venecia,VENECIA,25506,fuzzy_corto_fuerte,99.0,True
+"Puerto Salgar ,m Cundinamarca",PUERTO SALGAR M CUNDINAMARCA,25572,fuzzy_corto_fuerte,99.0,True
+SAN BERNARDO DE CUNDINAMARCA,SAN BERNARDO DE CUNDINAMARCA,25649,core_oficial_exacto_depto,100.0,True
+DE SOACHA CUNDINAMARCA,DE SOACHA CUNDINAMARCA,25754,core_oficial_exacto,100.0,True
+SUBACHOCQUE CUNDINAMARCA,SUBACHOCQUE CUNDINAMARCA,25769,fuzzy_corto_fuerte,99.0,True
+Municipal Susa,MUNICIPAL SUSA,25779,core_oficial_exacto,100.0,True
+TONCANCIPÁ-CUNDINAMARCA,TONCANCIPA CUNDINAMARCA,25817,fuzzy_corto_fuerte,99.0,True
+TONCAONCIPÁ-CUNDINAMARCA,TONCAONCIPA CUNDINAMARCA,25817,fuzzy_corto_fuerte,98.0,True
+UBATE,UBATE,25843,alias_manual_exacto,99.0,True
+UBATÉ  CUNDINAMARCA,UBATE CUNDINAMARCA,25843,alias_manual_exacto,99.0,True
+"UBATÉ , CUNDINAMARCA",UBATE CUNDINAMARCA,25843,alias_manual_exacto,99.0,True
+UBATÉ - CUNDINAMARCA,UBATE CUNDINAMARCA,25843,alias_manual_exacto,99.0,True
+UBATÉ – CUNDINAMARCA,UBATE CUNDINAMARCA,25843,alias_manual_exacto,99.0,True
+UBATÉ –CUNDINAMARCA,UBATE CUNDINAMARCA,25843,alias_manual_exacto,99.0,True
+Ubaté,UBATE,25843,alias_manual_exacto,99.0,True
+Ubaté ( Cundinamarca ),UBATE CUNDINAMARCA,25843,alias_manual_exacto,99.0,True
+Ubaté Cundinamarca,UBATE CUNDINAMARCA,25843,alias_manual_exacto,99.0,True
+Ubaté-Cundinamarca,UBATE CUNDINAMARCA,25843,alias_manual_exacto,99.0,True
+EL CARMEN DEL DARIEN,EL CARMEN DEL DARIEN,27150,core_oficial_exacto,100.0,True
+LITORAL DEL SAN JUAN,LITORAL DEL SAN JUAN,27250,core_oficial_exacto,100.0,True
+IISTMINA-CHOCO,IISTMINA CHOCO,27361,fuzzy_corto_fuerte,99.0,True
+ISTMINIA-CHOCO,ISTMINIA CHOCO,27361,fuzzy_corto_fuerte,99.0,True
+ITSMINA CHOCÓ,ITSMINA CHOCO,27361,fuzzy_corto_con_depto,93.71,True
+RIOSUCIO,RIOSUCIO,27615,fuzzy_corto_fuerte,99.0,True
+EL AGRADO,EL AGRADO,41013,core_oficial_exacto,100.0,True
+EL AGRADO HUILA,EL AGRADO HUILA,41013,core_oficial_exacto,100.0,True
+"El Agrado , Huila",EL AGRADO HUILA,41013,core_oficial_exacto,100.0,True
+El Agrado -Huila,EL AGRADO HUILA,41013,core_oficial_exacto,100.0,True
+El Agrado Huila .,EL AGRADO HUILA,41013,core_oficial_exacto,100.0,True
+AIPE JUILA,AIPE JUILA,41016,alias_manual_exacto,99.0,True
+APE HUILA,APE HUILA,41016,fuzzy_corto_con_depto,93.71,True
+CAMPO ALEGRE HUILA,CAMPO ALEGRE HUILA,41132,fuzzy_corto_fuerte,99.0,True
+GAZON HUILA,GAZON HUILA,41298,fuzzy_corto_fuerte,98.91,True
+GIGIANTE HUILA,GIGIANTE HUILA,41306,fuzzy_corto_fuerte,99.0,True
+EL HOBO HUILA,EL HOBO HUILA,41349,core_oficial_exacto,100.0,True
+El Hobo,EL HOBO,41349,core_oficial_exacto,100.0,True
+Argentina Huila,ARGENTINA HUILA,41378,core_oficial_exacto,100.0,True
+PLATA HUILA,PLATA HUILA,41396,core_oficial_exacto,100.0,True
+NATALAGA HUILA,NATALAGA HUILA,41483,fuzzy_corto_con_depto,93.71,True
+PALESTINA,PALESTINA,41530,fuzzy_corto_fuerte,99.0,True
+EL PITAL - HUILA,EL PITAL HUILA,41548,core_oficial_exacto,100.0,True
+El Pital,EL PITAL,41548,core_oficial_exacto,100.0,True
+El Pital -Huila,EL PITAL HUILA,41548,core_oficial_exacto,100.0,True
+El Pital Huila,EL PITAL HUILA,41548,core_oficial_exacto,100.0,True
+SANTA MARA - HUILA,SANTA MARA HUILA,41676,fuzzy_corto_fuerte,99.0,True
+Santa María,SANTA MARIA,41676,fuzzy_corto_fuerte,99.0,True
+VILLA VIEJA HUILA,VILLA VIEJA HUILA,41872,fuzzy_corto_fuerte,99.0,True
+RIOACHA - LA GUAJIRA,RIOACHA LA GUAJIRA,44001,fuzzy_corto_fuerte,99.0,True
+RIOAHACHA LA GUAJIRA,RIOAHACHA LA GUAJIRA,44001,fuzzy_corto_fuerte,99.0,True
+RIOHACHA GUAJIRA,RIOHACHA GUAJIRA,44001,core_oficial_exacto,100.0,True
+ALBANIA-GUAJIRA,ALBANIA GUAJIRA,44035,core_oficial_exacto_depto,100.0,True
+BARRANACAS LA GUAJIRA,BARRANACAS LA GUAJIRA,44078,fuzzy_corto_fuerte,99.0,True
+BARRANCA - LA GUAJIRA,BARRANCA LA GUAJIRA,44078,fuzzy_corto_fuerte,99.0,True
+BARRANCAS GUAJIRA,BARRANCAS GUAJIRA,44078,core_oficial_exacto,100.0,True
+BARRANCAS LAGUAJIRA,BARRANCAS LAGUAJIRA,44078,core_oficial_exacto,100.0,True
+DIBULLA GUAJIRA,DIBULLA GUAJIRA,44090,core_oficial_exacto,100.0,True
+DISTRACION LA GUAJIRA,DISTRACION LA GUAJIRA,44098,fuzzy_corto_fuerte,99.0,True
+Molino La Guajira,MOLINO LA GUAJIRA,44110,core_oficial_exacto,100.0,True
+HATANUEVO LA GUAJIRA,HATANUEVO LA GUAJIRA,44378,fuzzy_corto_fuerte,96.89,True
+HATONUEVO GUAJIRA,HATONUEVO GUAJIRA,44378,core_oficial_exacto,100.0,True
+SAN JUA DEL CESAR LA GUAJIRA,SAN JUA DEL CESAR LA GUAJIRA,44650,fuzzy_corto_fuerte,99.0,True
+SAN JUAN DEL CESAR  LA GUAJIRA,SAN JUAN DEL CESAR LA GUAJIRA,44650,core_oficial_exacto,100.0,True
+"SAN JUAN DEL CESAR , LA GUAJIRA",SAN JUAN DEL CESAR LA GUAJIRA,44650,core_oficial_exacto,100.0,True
+SAN JUAN DEL CESAR - LA GUAJIRA,SAN JUAN DEL CESAR LA GUAJIRA,44650,core_oficial_exacto,100.0,True
+SAN JUAN DEL CESAR GUAJIRA,SAN JUAN DEL CESAR GUAJIRA,44650,core_oficial_exacto,100.0,True
+SAN JUAN DEL CESAR LA GUAJIRA,SAN JUAN DEL CESAR LA GUAJIRA,44650,core_oficial_exacto,100.0,True
+SAN JUAN DEL CESAR – LA GUAJIRA,SAN JUAN DEL CESAR LA GUAJIRA,44650,core_oficial_exacto,100.0,True
+"SAN JUAN DEL CESAR, LA GUAJIRA",SAN JUAN DEL CESAR LA GUAJIRA,44650,core_oficial_exacto,100.0,True
+SAN JUAN DEL CESAR- LA GUAJIRA,SAN JUAN DEL CESAR LA GUAJIRA,44650,core_oficial_exacto,100.0,True
+SAN JUAN DEL CESAR-LA GUAJIRA,SAN JUAN DEL CESAR LA GUAJIRA,44650,core_oficial_exacto,100.0,True
+SAN JUAN DELCESAR,SAN JUAN DELCESAR,44650,fuzzy_corto_fuerte,97.14,True
+"San Juan del Cesar , Guajira",SAN JUAN DEL CESAR GUAJIRA,44650,core_oficial_exacto,100.0,True
+"San Juan del Cesar - La Guajira ,",SAN JUAN DEL CESAR LA GUAJIRA,44650,core_oficial_exacto,100.0,True
+DE SANTA MARTA MAGDALENA,DE SANTA MARTA MAGDALENA,47001,core_oficial_exacto,100.0,True
+SANTA MARTA D.T.C.H. - MAGDALENA,SANTA MARTA D T C H MAGDALENA,47001,fuzzy_corto_con_depto,92.62,True
+SANTA MARTA D.T.C.H. – - MAGDALENA,SANTA MARTA D T C H MAGDALENA,47001,fuzzy_corto_con_depto,92.62,True
+SANTA MARTA D.T.C.H. – MAGDALENA,SANTA MARTA D T C H MAGDALENA,47001,fuzzy_corto_con_depto,92.62,True
+EL DIFICIL MAGDALENA,EL DIFICIL MAGDALENA,47058,alias_manual_exacto,99.0,True
+El Difícil,EL DIFICIL,47058,alias_manual_exacto,99.0,True
+CHIBOLO MAGDALENA,CHIBOLO MAGDALENA,47170,fuzzy_corto_con_depto,93.71,True
+CIENAGA DE MAGDALENA,CIENAGA DE MAGDALENA,47189,core_oficial_exacto,100.0,True
+Cenaga Magdalena,CENAGA MAGDALENA,47189,fuzzy_corto_fuerte,99.0,True
+de Ciénaga Magdalena,DE CIENAGA MAGDALENA,47189,core_oficial_exacto,100.0,True
+CONCORDIA,CONCORDIA,47205,fuzzy_corto_fuerte,99.0,True
+BANCO,BANCO,47245,core_oficial_exacto,100.0,True
+"BANCO , MAGDALENA",BANCO MAGDALENA,47245,core_oficial_exacto,100.0,True
+BANCO MAGDALENA,BANCO MAGDALENA,47245,core_oficial_exacto,100.0,True
+RETEN MAGDALENA,RETEN MAGDALENA,47268,core_oficial_exacto,100.0,True
+elreten magdalena,ELRETEN MAGDALENA,47268,fuzzy_corto_fuerte,99.0,True
+EL PLATO MAGDALENA,EL PLATO MAGDALENA,47555,core_oficial_exacto,100.0,True
+PUEBLO VIEJO MAGDALENA,PUEBLO VIEJO MAGDALENA,47570,fuzzy_corto_fuerte,99.0,True
+SALAMINA,SALAMINA,47675,fuzzy_corto_fuerte,99.0,True
+TENEFIFE MAGDALENA,TENEFIFE MAGDALENA,47798,fuzzy_corto_con_depto,95.5,True
+VILAVICENCIO META,VILAVICENCIO META,50001,fuzzy_corto_fuerte,99.0,True
+VILLA VICENCIO,VILLA VICENCIO,50001,fuzzy_corto_fuerte,96.3,True
+DE ACACIAS META,DE ACACIAS META,50006,core_oficial_exacto,100.0,True
+CASTILA LA NUEVA META,CASTILA LA NUEVA META,50150,fuzzy_corto_fuerte,99.0,True
+CASTILLO - META,CASTILLO META,50251,core_oficial_exacto,100.0,True
+CASTILLO META,CASTILLO META,50251,core_oficial_exacto,100.0,True
+EL CASTILO META,EL CASTILO META,50251,fuzzy_corto_fuerte,99.0,True
+FUENTEDEORO  META,FUENTEDEORO META,50287,fuzzy_corto_fuerte,99.0,True
+FUENTEDEORO - META,FUENTEDEORO META,50287,fuzzy_corto_fuerte,99.0,True
+FUENTEDEORO META,FUENTEDEORO META,50287,fuzzy_corto_fuerte,99.0,True
+"Fuentedeoro, Meta",FUENTEDEORO META,50287,fuzzy_corto_fuerte,99.0,True
+DE GRANADA META,DE GRANADA META,50313,core_oficial_exacto_depto,100.0,True
+GANADA - META,GANADA META,50313,fuzzy_corto_fuerte,99.0,True
+GRANADA  DEL META,GRANADA DEL META,50313,core_oficial_exacto_depto,100.0,True
+GRANDA META,GRANDA META,50313,fuzzy_corto_fuerte,99.0,True
+Granada,GRANADA,50313,fuzzy_corto_fuerte,99.0,True
+GUAMAL,GUAMAL,50318,fuzzy_corto_fuerte,99.0,True
+MACARENA,MACARENA,50350,core_oficial_exacto,100.0,True
+MACARENA META,MACARENA META,50350,core_oficial_exacto,100.0,True
+DE PUERTO LOPEZ META,DE PUERTO LOPEZ META,50573,core_oficial_exacto,100.0,True
+PUERTLOPEZ - META,PUERTLOPEZ META,50573,fuzzy_corto_fuerte,98.91,True
+PURTO LOPEZ - META,PURTO LOPEZ META,50573,fuzzy_corto_fuerte,99.0,True
+Puerto Rico,PUERTO RICO,50590,fuzzy_corto_fuerte,99.0,True
+"San Carlos Guaroa, Meta",SAN CARLOS GUAROA META,50680,core_oficial_exacto,100.0,True
+SAN JUAN ARAMA,SAN JUAN ARAMA,50683,core_oficial_exacto,100.0,True
+SAN MARTIN,SAN MARTIN,50689,fuzzy_corto_fuerte,99.0,True
+VISTA HERMOSA ( META,VISTA HERMOSA META,50711,fuzzy_corto_fuerte,99.0,True
+VISTA HERMOSA ( META ),VISTA HERMOSA META,50711,fuzzy_corto_fuerte,99.0,True
+VISTA HERMOSA META,VISTA HERMOSA META,50711,fuzzy_corto_fuerte,99.0,True
+"VISTA HERMOSA, META",VISTA HERMOSA META,50711,fuzzy_corto_fuerte,99.0,True
+Vista Hermosa,VISTA HERMOSA,50711,fuzzy_corto_fuerte,96.0,True
+SAN JUA DE PASTO,SAN JUA DE PASTO,52001,fuzzy_corto_fuerte,96.3,True
+SAN JUA N DE PASTO,SAN JUA N DE PASTO,52001,fuzzy_corto_fuerte,96.55,True
+SAN JUAN  DE PASTO,SAN JUAN DE PASTO,52001,alias_manual_exacto,99.0,True
+SAN JUAN DE  PASTO,SAN JUAN DE PASTO,52001,alias_manual_exacto,99.0,True
+SAN JUAN DE NPASTO,SAN JUAN DE NPASTO,52001,fuzzy_corto_fuerte,96.55,True
+SAN JUAN PASTO,SAN JUAN PASTO,52001,alias_manual_exacto,99.0,True
+SAN JUANDE PASTO,SAN JUANDE PASTO,52001,alias_manual_exacto,99.0,True
+SAN JUNA DE PASTO,SAN JUNA DE PASTO,52001,fuzzy_corto_con_depto,92.86,True
+San Juan de Pasto,SAN JUAN DE PASTO,52001,alias_manual_exacto,99.0,True
+"San Juan de Pasto ,",SAN JUAN DE PASTO,52001,alias_manual_exacto,99.0,True
+"San Juan de Pasto, Nariño",SAN JUAN DE PASTO NARINO,52001,alias_manual_exacto,99.0,True
+ALBÁN,ALBAN,52019,fuzzy_corto_fuerte,99.0,True
+BELEN,BELEN,52083,fuzzy_corto_fuerte,99.0,True
+TABLÓN DE GÓMEZ NARIÑO,TABLON DE GOMEZ NARINO,52258,core_oficial_exacto,100.0,True
+El Tambo,EL TAMBO,52260,fuzzy_corto_fuerte,99.0,True
+GUAMATAN NARIÑO,GUAMATAN NARINO,52323,fuzzy_corto_fuerte,99.0,True
+DE IPIALES NARIÑO,DE IPIALES NARINO,52356,core_oficial_exacto,100.0,True
+IPILALES NARIÑO,IPILALES NARINO,52356,fuzzy_corto_fuerte,99.0,True
+CRUZ NARIÑO,CRUZ NARINO,52378,core_oficial_exacto,100.0,True
+LLANADA - NARIÑO,LLANADA NARINO,52385,core_oficial_exacto,100.0,True
+MOSQUERA,MOSQUERA,52473,fuzzy_corto_fuerte,99.0,True
+MUNICIPIO DE  MOSQUERA,MUNICIPIO DE MOSQUERA,52473,fuzzy_corto_fuerte,99.0,True
+MUNICIPIO DE MOSQUERA,MUNICIPIO DE MOSQUERA,52473,fuzzy_corto_fuerte,99.0,True
+Mosquera,MOSQUERA,52473,fuzzy_corto_fuerte,99.0,True
+MUNICIPIO DE RICAURTE,MUNICIPIO DE RICAURTE,52612,fuzzy_corto_fuerte,99.0,True
+RICAURTE,RICAURTE,52612,fuzzy_corto_fuerte,99.0,True
+SAN BERNARDO,SAN BERNARDO,52685,fuzzy_corto_fuerte,99.0,True
+San Pablo,SAN PABLO,52693,fuzzy_corto_fuerte,99.0,True
+TAGUA NARIÑO,TAGUA NARINO,52788,fuzzy_corto_fuerte,98.91,True
+"CUCUTA , NORTE DE SANTANDER",CUCUTA NORTE DE SANTANDER,54001,alias_manual_exacto,99.0,True
+"CUCUTA , NORTE DESANTANDER",CUCUTA NORTE DESANTANDER,54001,alias_manual_exacto,99.0,True
+CUCUTA - NORTE DE SANTANDER,CUCUTA NORTE DE SANTANDER,54001,alias_manual_exacto,99.0,True
+Cucuta - N. De Santander,CUCUTA N DE SANTANDER,54001,alias_manual_exacto,99.0,True
+CÚCUTA,CUCUTA,54001,alias_manual_exacto,99.0,True
+CÚCUTA NORTE DE SANTANDER,CUCUTA NORTE DE SANTANDER,54001,alias_manual_exacto,99.0,True
+"CÚCUTA, NORTE DE SANTANDER",CUCUTA NORTE DE SANTANDER,54001,alias_manual_exacto,99.0,True
+Cúcuta,CUCUTA,54001,alias_manual_exacto,99.0,True
+Cúcuta  Norte de Santander,CUCUTA NORTE DE SANTANDER,54001,alias_manual_exacto,99.0,True
+MUNICIPIO DE CÚCUTA,MUNICIPIO DE CUCUTA,54001,alias_manual_exacto,99.0,True
+SAN JOSE  CÚCUTA,SAN JOSE CUCUTA,54001,alias_manual_exacto,99.0,True
+SAN JOSE DE CUCUCTA,SAN JOSE DE CUCUCTA,54001,fuzzy_corto_fuerte,96.77,True
+SAN JOSÉ CÚCUTA,SAN JOSE CUCUTA,54001,alias_manual_exacto,99.0,True
+SAN JSOE DE CUCUTA,SAN JSOE DE CUCUTA,54001,fuzzy_corto_con_depto,93.33,True
+SAN OSE DE CUCUTA,SAN OSE DE CUCUTA,54001,fuzzy_corto_fuerte,96.55,True
+SANO JOSE DE CUCUTA,SANO JOSE DE CUCUTA,54001,fuzzy_corto_fuerte,96.77,True
+San Joseé de Cúcuta,SAN JOSEE DE CUCUTA,54001,fuzzy_corto_fuerte,96.77,True
+San José de Cúcuta - N.S,SAN JOSE DE CUCUTA N S,54001,alias_manual_exacto,99.0,True
+San Jo´se Cucuta,SAN JO SE CUCUTA,54001,fuzzy_corto_fuerte,96.77,True
+Sanjose de Cúcuta,SANJOSE DE CUCUTA,54001,alias_manual_exacto,99.0,True
+Son José de Cúcuta,SON JOSE DE CUCUTA,54001,fuzzy_corto_con_depto,93.33,True
+ABREGO N DE SANTANDER,ABREGO N DE SANTANDER,54003,core_oficial_exacto,100.0,True
+Abrego - N. De Santander,ABREGO N DE SANTANDER,54003,core_oficial_exacto,100.0,True
+Abrego N. De Santander,ABREGO N DE SANTANDER,54003,core_oficial_exacto,100.0,True
+CARMEN,CARMEN,54245,core_oficial_exacto,100.0,True
+CARMEN DE,CARMEN DE,54245,core_oficial_exacto,100.0,True
+ZULIA NORTE DE SANTANDER,ZULIA NORTE DE SANTANDER,54261,core_oficial_exacto,100.0,True
+Zulia,ZULIA,54261,core_oficial_exacto,100.0,True
+La Playa - N. De Santander,LA PLAYA N DE SANTANDER,54398,core_oficial_exacto,100.0,True
+LOS PASTIOS NORTE DE SANTANDER,LOS PASTIOS NORTE DE SANTANDER,54405,fuzzy_corto_fuerte,99.0,True
+LOS PATIOS - N / S,LOS PATIOS N S,54405,core_oficial_exacto,100.0,True
+LOS PATIOS - N / S .,LOS PATIOS N S,54405,core_oficial_exacto,100.0,True
+LOS PATIOS N /S,LOS PATIOS N S,54405,core_oficial_exacto,100.0,True
+Los Patios N.S,LOS PATIOS N S,54405,core_oficial_exacto,100.0,True
+Los Patios N.S.,LOS PATIOS N S,54405,core_oficial_exacto,100.0,True
+PATIOS,PATIOS,54405,core_oficial_exacto,100.0,True
+"Mutiscua , N.S.",MUTISCUA N S,54480,core_oficial_exacto,100.0,True
+"PLAMPLONA, NORTE DE SANTANDER",PLAMPLONA NORTE DE SANTANDER,54518,fuzzy_corto_fuerte,99.0,True
+Pamplona - N. De Santander,PAMPLONA N DE SANTANDER,54518,core_oficial_exacto,100.0,True
+Pamplona N.S.,PAMPLONA N S,54518,core_oficial_exacto,100.0,True
+SAN CAYETANO,SAN CAYETANO,54673,fuzzy_corto_fuerte,99.0,True
+Toledo,TOLEDO,54820,fuzzy_corto_fuerte,99.0,True
+VILLACARO NORTE DE SANTANDER,VILLACARO NORTE DE SANTANDER,54871,fuzzy_corto_fuerte,99.0,True
+VIILA DEL ROSARIO NORTE DE SANTANDER,VIILA DEL ROSARIO NORTE DE SANTANDER,54874,fuzzy_corto_fuerte,99.0,True
+VILA DEL ROSARIO,VILA DEL ROSARIO,54874,fuzzy_corto_fuerte,96.0,True
+VILLA DE ROSARIO NORTE DE SANTANDER,VILLA DE ROSARIO NORTE DE SANTANDER,54874,core_oficial_exacto,100.0,True
+VILLA DELROSARIO,VILLA DELROSARIO,54874,fuzzy_corto_fuerte,96.97,True
+VILLA ROSARIO,VILLA ROSARIO,54874,core_oficial_exacto,100.0,True
+VILLA Rosario Norte de Santander,VILLA ROSARIO NORTE DE SANTANDER,54874,core_oficial_exacto,100.0,True
+VILLADEL ROSARIO,VILLADEL ROSARIO,54874,fuzzy_corto_fuerte,96.97,True
+Villa de Rosario,VILLA DE ROSARIO,54874,core_oficial_exacto,100.0,True
+"Villa de Rosario ,",VILLA DE ROSARIO,54874,core_oficial_exacto,100.0,True
+Villa de Rosario6,VILLA DE ROSARIO6,54874,fuzzy_corto_fuerte,96.3,True
+Villa del Rosario de Norte de Santander,VILLA DEL ROSARIO DE NORTE DE SANTANDER,54874,core_oficial_exacto,100.0,True
+Villa del del Rosario,VILLA DEL DEL ROSARIO,54874,core_oficial_exacto,100.0,True
+Villa delRosario Norte de Santander,VILLA DELROSARIO NORTE DE SANTANDER,54874,fuzzy_corto_fuerte,99.0,True
+illa del Rosario,ILLA DEL ROSARIO,54874,fuzzy_corto_fuerte,96.0,True
+Armenia,ARMENIA,63001,fuzzy_corto_fuerte,99.0,True
+"Armenia ,",ARMENIA,63001,fuzzy_corto_fuerte,99.0,True
+Armenis - Quindio,ARMENIS QUINDIO,63001,fuzzy_corto_con_depto,93.71,True
+CALARACA QUINDIO,CALARACA QUINDIO,63130,fuzzy_corto_fuerte,99.0,True
+FINLANDIA-QUINDIO,FINLANDIA QUINDIO,63272,fuzzy_corto_fuerte,99.0,True
+LA TABAIDA -QUINDIO,LA TABAIDA QUINDIO,63401,alias_manual_exacto,99.0,True
+LA TEBAIBA QUINDIO,LA TEBAIBA QUINDIO,63401,fuzzy_corto_con_depto,93.71,True
+TABAIDA-QUINDIO,TABAIDA QUINDIO,63401,alias_manual_exacto,99.0,True
+TEBAIDA QUINDÍO,TEBAIDA QUINDIO,63401,core_oficial_exacto,100.0,True
+Tebaida  Quindío,TEBAIDA QUINDIO,63401,core_oficial_exacto,100.0,True
+Tebaida - Quindío,TEBAIDA QUINDIO,63401,core_oficial_exacto,100.0,True
+DE DOSQUEBRADAS - RISARALDA,DE DOSQUEBRADAS RISARALDA,66170,core_oficial_exacto,100.0,True
+DE DOSQUEBRADAS RISARALDA,DE DOSQUEBRADAS RISARALDA,66170,core_oficial_exacto,100.0,True
+"DE DOSQUEBRADAS, RISARALDA",DE DOSQUEBRADAS RISARALDA,66170,core_oficial_exacto,100.0,True
+DOQUEBRADAS - RISARALDA,DOQUEBRADAS RISARALDA,66170,fuzzy_corto_fuerte,99.0,True
+DOS QUEBRADAS,DOS QUEBRADAS,66170,fuzzy_corto_fuerte,96.0,True
+DOS QUEBRADAS RISARALDA,DOS QUEBRADAS RISARALDA,66170,fuzzy_corto_fuerte,99.0,True
+DOSQUEBARADAS,DOSQUEBARADAS,66170,fuzzy_corto_fuerte,96.0,True
+DE LA VIRGINIA RISARALDA,DE LA VIRGINIA RISARALDA,66400,core_oficial_exacto,100.0,True
+LA VIRGINA RISARALDA,LA VIRGINA RISARALDA,66400,fuzzy_corto_fuerte,99.0,True
+VIRGINIA,VIRGINIA,66400,core_oficial_exacto,100.0,True
+VIRGINIA - RISARALDA,VIRGINIA RISARALDA,66400,core_oficial_exacto,100.0,True
+VIRGINIA RISARALDA,VIRGINIA RISARALDA,66400,core_oficial_exacto,100.0,True
+SANTA ROSA DEL CABAL,SANTA ROSA DEL CABAL,66682,core_oficial_exacto,100.0,True
+SANTA ROSSA DE CABAL,SANTA ROSSA DE CABAL,66682,fuzzy_corto_fuerte,96.97,True
+SNTA ROSA DE CABAL,SNTA ROSA DE CABAL,66682,fuzzy_corto_fuerte,96.77,True
+BUCARAMAN SANTANDER,BUCARAMAN SANTANDER,68001,fuzzy_corto_fuerte,98.0,True
+BUCARAMANGA No.,BUCARAMANGA NO,68001,core_oficial_exacto,100.0,True
+BUCARMANAGA SANTANDER,BUCARMANAGA SANTANDER,68001,fuzzy_corto_fuerte,98.91,True
+ALBANIA,ALBANIA,68020,fuzzy_corto_fuerte,99.0,True
+Albania,ALBANIA,68020,fuzzy_corto_fuerte,99.0,True
+"Albania ,",ALBANIA,68020,fuzzy_corto_fuerte,99.0,True
+BARBPSA SANTANDER,BARBPSA SANTANDER,68077,fuzzy_corto_con_depto,93.71,True
+Barbosa,BARBOSA,68077,fuzzy_corto_fuerte,99.0,True
+BARANCABERMEJA,BARANCABERMEJA,68081,fuzzy_corto_fuerte,96.55,True
+BARRAANCABERMEJA,BARRAANCABERMEJA,68081,fuzzy_corto_fuerte,96.77,True
+BARRACABERMEJA,BARRACABERMEJA,68081,fuzzy_corto_fuerte,96.55,True
+BARRANACABERMEJA,BARRANACABERMEJA,68081,fuzzy_corto_fuerte,96.77,True
+BARRANACABERMEJA-SANTANDER,BARRANACABERMEJA SANTANDER,68081,fuzzy_corto_fuerte,99.0,True
+BARRANCABEREMEJA,BARRANCABEREMEJA,68081,fuzzy_corto_fuerte,96.77,True
+BARRANCABERMJA,BARRANCABERMJA,68081,fuzzy_corto_fuerte,96.55,True
+BARRANCABERMREJA,BARRANCABERMREJA,68081,fuzzy_corto_fuerte,96.77,True
+BARRANCABRMEJA,BARRANCABRMEJA,68081,fuzzy_corto_fuerte,96.55,True
+BARRANCARBERMEJA,BARRANCARBERMEJA,68081,fuzzy_corto_fuerte,96.77,True
+BARRRANCABERMEJA,BARRRANCABERMEJA,68081,fuzzy_corto_fuerte,96.77,True
+BERTULIA - SANTANDER,BERTULIA SANTANDER,68092,fuzzy_corto_fuerte,99.0,True
+BETULIA,BETULIA,68092,fuzzy_corto_fuerte,99.0,True
+Bolívar - Santander,BOLIVAR SANTANDER,68101,core_oficial_exacto_depto,100.0,True
+Bolívar Santander,BOLIVAR SANTANDER,68101,core_oficial_exacto_depto,100.0,True
+Cabrera,CABRERA,68121,fuzzy_corto_fuerte,99.0,True
+CHIMA,CHIMA,68176,fuzzy_corto_fuerte,99.0,True
+Chimá,CHIMA,68176,fuzzy_corto_fuerte,99.0,True
+"Chimá ,",CHIMA,68176,fuzzy_corto_fuerte,99.0,True
+CARMEN DE CHUCURI  SANTANDER,CARMEN DE CHUCURI SANTANDER,68235,alias_manual_exacto,99.0,True
+CARMEN DE CHUCURI SANTANDER,CARMEN DE CHUCURI SANTANDER,68235,alias_manual_exacto,99.0,True
+EL CARMEN CHUCURÍ SANTANDER,EL CARMEN CHUCURI SANTANDER,68235,alias_manual_exacto,99.0,True
+carmen de chucuri,CARMEN DE CHUCURI,68235,alias_manual_exacto,99.0,True
+EL PEÑON,EL PENON,68250,fuzzy_corto_fuerte,99.0,True
+PLAYON,PLAYON,68255,core_oficial_exacto,100.0,True
+PLAYON SANTANDER,PLAYON SANTANDER,68255,core_oficial_exacto,100.0,True
+FLORIDA BLANCA,FLORIDA BLANCA,68276,fuzzy_corto_fuerte,96.3,True
+FLORIDA BLANCA SANTANDER,FLORIDA BLANCA SANTANDER,68276,fuzzy_corto_fuerte,99.0,True
+GIRO SANTANDER,GIRO SANTANDER,68307,fuzzy_corto_fuerte,96.89,True
+"GIRO, SANTANDER",GIRO SANTANDER,68307,fuzzy_corto_fuerte,96.89,True
+GIRON DE SANTANDER,GIRON DE SANTANDER,68307,core_oficial_exacto,100.0,True
+GIiron Santander,GIIRON SANTANDER,68307,fuzzy_corto_fuerte,98.91,True
+GRON SANTANDER,GRON SANTANDER,68307,fuzzy_corto_fuerte,96.89,True
+Guadalupe,GUADALUPE,68320,fuzzy_corto_fuerte,99.0,True
+JESUSU MARIA SANTANDER,JESUSU MARIA SANTANDER,68368,fuzzy_corto_fuerte,99.0,True
+BELLEZA - SANTANDER,BELLEZA SANTANDER,68377,core_oficial_exacto,100.0,True
+BELLEZA SANTANDER,BELLEZA SANTANDER,68377,core_oficial_exacto,100.0,True
+LA PAZ,LA PAZ,68397,fuzzy_corto_fuerte,99.0,True
+PAZ,PAZ,68397,fuzzy_corto_fuerte,99.0,True
+Municipal de Los Santos,MUNICIPAL DE LOS SANTOS,68418,core_oficial_exacto,100.0,True
+PIDECUESTA - SANTANDER,PIDECUESTA SANTANDER,68547,fuzzy_corto_fuerte,99.0,True
+PIEDESCUESTA SANTANDER,PIEDESCUESTA SANTANDER,68547,fuzzy_corto_fuerte,99.0,True
+Pledecuesta Santander,PLEDECUESTA SANTANDER,68547,fuzzy_corto_fuerte,98.91,True
+Rionegro,RIONEGRO,68615,fuzzy_corto_fuerte,99.0,True
+"Rionegro ,",RIONEGRO,68615,fuzzy_corto_fuerte,99.0,True
+SABANA TORRES,SABANA TORRES,68655,core_oficial_exacto,100.0,True
+SABANA TORRES SANTANDER,SABANA TORRES SANTANDER,68655,core_oficial_exacto,100.0,True
+DE SAN VICENTE DE CHUCURÍ SANTANDER,DE SAN VICENTE DE CHUCURI SANTANDER,68689,core_oficial_exacto,100.0,True
+SAN VICENTE DE VCHUCURÍ,SAN VICENTE DE VCHUCURI,68689,fuzzy_corto_fuerte,97.44,True
+San Vicente  Chucurí,SAN VICENTE CHUCURI,68689,core_oficial_exacto,100.0,True
+Santa Bárbara,SANTA BARBARA,68705,fuzzy_corto_fuerte,99.0,True
+EL SOCORRO,EL SOCORRO,68755,core_oficial_exacto,100.0,True
+DE SINCELEJO - SUCRE,DE SINCELEJO SUCRE,70001,core_oficial_exacto,100.0,True
+BUENAVISTA,BUENAVISTA,70110,fuzzy_corto_fuerte,99.0,True
+DE CAIMITO SUCRE,DE CAIMITO SUCRE,70124,core_oficial_exacto,100.0,True
+CORAZAL-SUCRE,CORAZAL SUCRE,70215,fuzzy_corto_con_depto,93.71,True
+CORZAL-SUCRE,CORZAL SUCRE,70215,fuzzy_corto_fuerte,99.0,True
+GURANDA SUCRE,GURANDA SUCRE,70265,fuzzy_corto_fuerte,99.0,True
+PALMITOS - SUCRE,PALMITOS SUCRE,70418,core_oficial_exacto,100.0,True
+SAN JUAN DE BERTULIA,SAN JUAN DE BERTULIA,70702,fuzzy_corto_fuerte,96.97,True
+De San Marcos Sucre,DE SAN MARCOS SUCRE,70708,core_oficial_exacto,100.0,True
+SanMarcos Sucre,SANMARCOS SUCRE,70708,fuzzy_corto_fuerte,99.0,True
+BAGUÉ TOLIMA,BAGUE TOLIMA,73001,fuzzy_corto_fuerte,98.91,True
+CASABLANCA TOLIMA,CASABLANCA TOLIMA,73152,fuzzy_corto_fuerte,98.0,True
+EL ESPINAL - TOLIMA,EL ESPINAL TOLIMA,73268,core_oficial_exacto,100.0,True
+EL ESPINAL TOLIMA,EL ESPINAL TOLIMA,73268,core_oficial_exacto,100.0,True
+EL ESPINAL.,EL ESPINAL,73268,core_oficial_exacto,100.0,True
+EL El Espinal,EL EL ESPINAL,73268,core_oficial_exacto,100.0,True
+ESPIANAL TOLIMA,ESPIANAL TOLIMA,73268,fuzzy_corto_fuerte,99.0,True
+El Espinal,EL ESPINAL,73268,core_oficial_exacto,100.0,True
+"El Espinal ,",EL ESPINAL,73268,core_oficial_exacto,100.0,True
+DEL GUAMO TOLIMA,DEL GUAMO TOLIMA,73319,core_oficial_exacto_depto,100.0,True
+ICONOZO TOLIMA,ICONOZO TOLIMA,73352,fuzzy_corto_fuerte,99.0,True
+MAIRQUITA TOLIMA,MAIRQUITA TOLIMA,73443,fuzzy_corto_fuerte,96.89,True
+MARIQUITA,MARIQUITA,73443,alias_manual_exacto,99.0,True
+MARIQUITA  TOLIMA,MARIQUITA TOLIMA,73443,alias_manual_exacto,99.0,True
+MARIQUITA - TOLIMA,MARIQUITA TOLIMA,73443,alias_manual_exacto,99.0,True
+MARIQUITA TOLIMA,MARIQUITA TOLIMA,73443,alias_manual_exacto,99.0,True
+MARIQUITA- TOLIMA,MARIQUITA TOLIMA,73443,alias_manual_exacto,99.0,True
+San Luis,SAN LUIS,73678,fuzzy_corto_fuerte,99.0,True
+Suarez,SUAREZ,73770,fuzzy_corto_fuerte,99.0,True
+CALI,CALI,76001,alias_manual_exacto,99.0,True
+CALI  VALLE,CALI VALLE,76001,alias_manual_exacto,99.0,True
+"CALI , VALLE DEL CAUCA",CALI VALLE DEL CAUCA,76001,alias_manual_exacto,99.0,True
+CALI - VALLE,CALI VALLE,76001,alias_manual_exacto,99.0,True
+CALI -VALLE,CALI VALLE,76001,alias_manual_exacto,99.0,True
+CALI VALLE,CALI VALLE,76001,alias_manual_exacto,99.0,True
+CALI VALLE DEL CAUCA,CALI VALLE DEL CAUCA,76001,alias_manual_exacto,99.0,True
+CALI- VALLE,CALI VALLE,76001,alias_manual_exacto,99.0,True
+Cali,CALI,76001,alias_manual_exacto,99.0,True
+Cali ( Valle del Cauca ),CALI VALLE DEL CAUCA,76001,alias_manual_exacto,99.0,True
+"Cali ,",CALI,76001,alias_manual_exacto,99.0,True
+"Cali , Valle",CALI VALLE,76001,alias_manual_exacto,99.0,True
+Cali - Valle Del Cauca,CALI VALLE DEL CAUCA,76001,alias_manual_exacto,99.0,True
+Cali -Valle Del Cauca,CALI VALLE DEL CAUCA,76001,alias_manual_exacto,99.0,True
+Cali-Valle,CALI VALLE,76001,alias_manual_exacto,99.0,True
+Cali-Valle Del Cauca,CALI VALLE DEL CAUCA,76001,alias_manual_exacto,99.0,True
+DE SANTIAGO DE CALI - VALLE,DE SANTIAGO DE CALI VALLE,76001,alias_manual_exacto,99.0,True
+SANTAGO DE CALI,SANTAGO DE CALI,76001,fuzzy_corto_fuerte,96.0,True
+SANTIAG DE CALI,SANTIAG DE CALI,76001,fuzzy_corto_fuerte,96.0,True
+SANTIAG0 DE CALI,SANTIAG0 DE CALI,76001,fuzzy_corto_con_depto,92.31,True
+SANTIAGHO DE CALI,SANTIAGHO DE CALI,76001,fuzzy_corto_fuerte,96.3,True
+SANTIAGO CALI,SANTIAGO CALI,76001,alias_manual_exacto,99.0,True
+SANTIAGO D CALI,SANTIAGO D CALI,76001,alias_manual_exacto,99.0,True
+SANTIAGO DECALI,SANTIAGO DECALI,76001,fuzzy_corto_fuerte,96.77,True
+"SANTIAGO, CALI",SANTIAGO CALI,76001,alias_manual_exacto,99.0,True
+SANTIGO DE CALI,SANTIGO DE CALI,76001,fuzzy_corto_fuerte,96.0,True
+SANTOIAGO DE  CALI,SANTOIAGO DE CALI,76001,fuzzy_corto_fuerte,96.3,True
+SATIAGO  DE CALI,SATIAGO DE CALI,76001,fuzzy_corto_fuerte,96.0,True
+SATIAGO DE CALI,SATIAGO DE CALI,76001,fuzzy_corto_fuerte,96.0,True
+SNTIAGO DE CALI,SNTIAGO DE CALI,76001,fuzzy_corto_fuerte,96.0,True
+Saniago de Cali,SANIAGO DE CALI,76001,fuzzy_corto_fuerte,96.0,True
+Santiago de Caii,SANTIAGO DE CAII,76001,fuzzy_corto_con_depto,92.31,True
+Santiago de Cal,SANTIAGO DE CAL,76001,fuzzy_corto_fuerte,96.0,True
+Santiago de Cali Valle,SANTIAGO DE CALI VALLE,76001,alias_manual_exacto,99.0,True
+VALLE CALI,VALLE CALI,76001,alias_manual_exacto,99.0,True
+VALLE DEL CAUCA CALI,VALLE DEL CAUCA CALI,76001,alias_manual_exacto,99.0,True
+antiago de Cali,ANTIAGO DE CALI,76001,fuzzy_corto_fuerte,96.0,True
+ALCALA VALLE,ALCALA VALLE,76020,core_oficial_exacto,100.0,True
+ANDALUCIA - VALLE,ANDALUCIA VALLE,76036,core_oficial_exacto,100.0,True
+ANDALUCIA-VALLE,ANDALUCIA VALLE,76036,core_oficial_exacto,100.0,True
+Andalucía Valle,ANDALUCIA VALLE,76036,core_oficial_exacto,100.0,True
+ANSERMANUEVO VALLE,ANSERMANUEVO VALLE,76041,core_oficial_exacto,100.0,True
+ARGELIA,ARGELIA,76054,fuzzy_corto_fuerte,99.0,True
+ARGELIA - VALLE DEL CAUCA,ARGELIA VALLE DEL CAUCA,76054,core_oficial_exacto_depto,100.0,True
+Argelia Valle del Cauca,ARGELIA VALLE DEL CAUCA,76054,core_oficial_exacto_depto,100.0,True
+BOLIVAR VALLE,BOLIVAR VALLE,76100,core_oficial_exacto_depto,100.0,True
+BOLIVAR VALLE DEL CAUCA,BOLIVAR VALLE DEL CAUCA,76100,core_oficial_exacto_depto,100.0,True
+BOLIVAR-VALLE DEL CAUCA,BOLIVAR VALLE DEL CAUCA,76100,core_oficial_exacto_depto,100.0,True
+Bolívar  Valle del Cauca,BOLIVAR VALLE DEL CAUCA,76100,core_oficial_exacto_depto,100.0,True
+"Bolívar , Valle del Cauca",BOLIVAR VALLE DEL CAUCA,76100,core_oficial_exacto_depto,100.0,True
+"Bolívar , valle del cauca",BOLIVAR VALLE DEL CAUCA,76100,core_oficial_exacto_depto,100.0,True
+Bolívar - Valle,BOLIVAR VALLE,76100,core_oficial_exacto_depto,100.0,True
+Bolívar . Valle del Cauca,BOLIVAR VALLE DEL CAUCA,76100,core_oficial_exacto_depto,100.0,True
+Bolívar- Valle,BOLIVAR VALLE,76100,core_oficial_exacto_depto,100.0,True
+MUNICIPAL BOLIVAR - VALLE,MUNICIPAL BOLIVAR VALLE,76100,core_oficial_exacto_depto,100.0,True
+BUENA VENTURA,BUENA VENTURA,76109,fuzzy_corto_fuerte,96.0,True
+BUENAAVENTURA,BUENAAVENTURA,76109,fuzzy_corto_fuerte,96.0,True
+BUENAVENTU RA VALLE,BUENAVENTU RA VALLE,76109,fuzzy_corto_fuerte,99.0,True
+BUENAVENTURA  VALLE,BUENAVENTURA VALLE,76109,core_oficial_exacto,100.0,True
+BUENAVENTURA - VALLE,BUENAVENTURA VALLE,76109,core_oficial_exacto,100.0,True
+BUENAVENTURA D E VALLE DEL CAUCA,BUENAVENTURA D E VALLE DEL CAUCA,76109,fuzzy_corto_fuerte,99.0,True
+BUENAVENTURA DEL VALLE DEL CAUCA,BUENAVENTURA DEL VALLE DEL CAUCA,76109,core_oficial_exacto,100.0,True
+BUENAVENTURA VALLE,BUENAVENTURA VALLE,76109,core_oficial_exacto,100.0,True
+BUENAVENTURA-VALLE,BUENAVENTURA VALLE,76109,core_oficial_exacto,100.0,True
+BUIENAVENTURA VALLE,BUIENAVENTURA VALLE,76109,fuzzy_corto_fuerte,99.0,True
+"Buenaventura , Valle",BUENAVENTURA VALLE,76109,core_oficial_exacto,100.0,True
+Buenaventura - Valle,BUENAVENTURA VALLE,76109,core_oficial_exacto,100.0,True
+Buenaventura Valle,BUENAVENTURA VALLE,76109,core_oficial_exacto,100.0,True
+Buenaventura – Valle,BUENAVENTURA VALLE,76109,core_oficial_exacto,100.0,True
+DE BUENAVENTURA VALLE,DE BUENAVENTURA VALLE,76109,core_oficial_exacto,100.0,True
+Distrito de Buenaventura,DISTRITO DE BUENAVENTURA,76109,core_oficial_exacto,100.0,True
+GUADAJALARA DE BUGA - VALLE,GUADAJALARA DE BUGA VALLE,76111,fuzzy_corto_con_depto,95.5,True
+GUADALAJARA BUGA,GUADALAJARA BUGA,76111,alias_manual_exacto,99.0,True
+GUADALAJARA BUGA VALLE,GUADALAJARA BUGA VALLE,76111,alias_manual_exacto,99.0,True
+GUADALAJARA-BUGA,GUADALAJARA BUGA,76111,alias_manual_exacto,99.0,True
+Guadalajara,GUADALAJARA,76111,alias_manual_exacto,99.0,True
+Guadalajara de,GUADALAJARA DE,76111,alias_manual_exacto,99.0,True
+Guadalajara de Buga ( V ),GUADALAJARA DE BUGA V,76111,fuzzy_corto_con_depto,94.12,True
+"Guadalajara de Buga , Valle",GUADALAJARA DE BUGA VALLE,76111,alias_manual_exacto,99.0,True
+Guadalajara de Buga - Valle,GUADALAJARA DE BUGA VALLE,76111,alias_manual_exacto,99.0,True
+Guadalajara de Buga Valle,GUADALAJARA DE BUGA VALLE,76111,alias_manual_exacto,99.0,True
+BUGA,BUGA,76113,alias_manual_exacto,99.0,True
+BUGA VALLE,BUGA VALLE,76113,alias_manual_exacto,99.0,True
+BUGA- VALLE DEL CAUCA,BUGA VALLE DEL CAUCA,76113,alias_manual_exacto,99.0,True
+BUGALAGRANDE VALLE,BUGALAGRANDE VALLE,76113,core_oficial_exacto,100.0,True
+Buga,BUGA,76113,alias_manual_exacto,99.0,True
+Buga - Valle,BUGA VALLE,76113,alias_manual_exacto,99.0,True
+Buga - Valle del Cauca,BUGA VALLE DEL CAUCA,76113,alias_manual_exacto,99.0,True
+Buga Valle,BUGA VALLE,76113,alias_manual_exacto,99.0,True
+Buga Valle del Cauca,BUGA VALLE DEL CAUCA,76113,alias_manual_exacto,99.0,True
+Caicedonia Valle,CAICEDONIA VALLE,76122,core_oficial_exacto,100.0,True
+"Caicedonia Valle ,",CAICEDONIA VALLE,76122,core_oficial_exacto,100.0,True
+O Caicedonia Valle,O CAICEDONIA VALLE,76122,fuzzy_corto_fuerte,98.91,True
+CALIMA DEL DARIEN VALLE DEL CAUCA,CALIMA DEL DARIEN VALLE DEL CAUCA,76126,alias_manual_exacto,99.0,True
+CALIMA EL DARIÉN,CALIMA EL DARIEN,76126,alias_manual_exacto,99.0,True
+CALIMA EL DARIÉN - VALLE DEL CAUCA,CALIMA EL DARIEN VALLE DEL CAUCA,76126,alias_manual_exacto,99.0,True
+CALIMA EL DARIÉN – - VALLE DEL CAUCA,CALIMA EL DARIEN VALLE DEL CAUCA,76126,alias_manual_exacto,99.0,True
+CALIMA EL DARIÉN – VALLE DEL CAUCA,CALIMA EL DARIEN VALLE DEL CAUCA,76126,alias_manual_exacto,99.0,True
+CALIMA EL DARIÉN – VALLE DEL CAUCA -,CALIMA EL DARIEN VALLE DEL CAUCA,76126,alias_manual_exacto,99.0,True
+CALIMA EL DARIÉN- VALLE DEL CAUCA,CALIMA EL DARIEN VALLE DEL CAUCA,76126,alias_manual_exacto,99.0,True
+CALIMA EL DARIÉN-VALLE DEL CAUCA,CALIMA EL DARIEN VALLE DEL CAUCA,76126,alias_manual_exacto,99.0,True
+Calima EL DARIEN Valle Del Cauca,CALIMA EL DARIEN VALLE DEL CAUCA,76126,alias_manual_exacto,99.0,True
+Calima El Darién ( Valle del Cauca ),CALIMA EL DARIEN VALLE DEL CAUCA,76126,alias_manual_exacto,99.0,True
+"Calima El Darién - Valle del Cauca ,",CALIMA EL DARIEN VALLE DEL CAUCA,76126,alias_manual_exacto,99.0,True
+Calima El Darién Valle,CALIMA EL DARIEN VALLE,76126,alias_manual_exacto,99.0,True
+CALENDARIA VALLE DEL CAUCA,CALENDARIA VALLE DEL CAUCA,76130,alias_manual_exacto,99.0,True
+CANDELARIA,CANDELARIA,76130,fuzzy_corto_fuerte,99.0,True
+CANDELARIA  VALLE,CANDELARIA VALLE,76130,core_oficial_exacto_depto,100.0,True
+CANDELARIA ( VALLE ),CANDELARIA VALLE,76130,core_oficial_exacto_depto,100.0,True
+CANDELARIA - VALLE,CANDELARIA VALLE,76130,core_oficial_exacto_depto,100.0,True
+CANDELARIA VALLE,CANDELARIA VALLE,76130,core_oficial_exacto_depto,100.0,True
+CANDELARIA VALLE DELCAUCA,CANDELARIA VALLE DELCAUCA,76130,core_oficial_exacto_depto,100.0,True
+"CANDELARIA, VALLE",CANDELARIA VALLE,76130,core_oficial_exacto_depto,100.0,True
+CANDELARIA-VALLE,CANDELARIA VALLE,76130,core_oficial_exacto_depto,100.0,True
+Candelaria,CANDELARIA,76130,fuzzy_corto_fuerte,99.0,True
+Candelaria Valle,CANDELARIA VALLE,76130,core_oficial_exacto_depto,100.0,True
+MUNICIPIO DE CANDELARIA,MUNICIPIO DE CANDELARIA,76130,fuzzy_corto_fuerte,99.0,True
+CARTAG VALLE,CARTAG VALLE,76147,fuzzy_corto_fuerte,99.0,True
+"CARTAGO , VALLE",CARTAGO VALLE,76147,core_oficial_exacto,100.0,True
+CARTAGO - VALLE,CARTAGO VALLE,76147,core_oficial_exacto,100.0,True
+CARTAGO VALLE,CARTAGO VALLE,76147,core_oficial_exacto,100.0,True
+"CARTAGO, VALLE",CARTAGO VALLE,76147,core_oficial_exacto,100.0,True
+DAGUA - VALLE,DAGUA VALLE,76233,core_oficial_exacto,100.0,True
+DAGUA VALLE,DAGUA VALLE,76233,core_oficial_exacto,100.0,True
+DAGUA-VALLE,DAGUA VALLE,76233,core_oficial_exacto,100.0,True
+EL AGUILA VALLE,EL AGUILA VALLE,76243,core_oficial_exacto,100.0,True
+CERRITO - VALLE,CERRITO VALLE,76248,core_oficial_exacto_depto,100.0,True
+CERRITO VALLE,CERRITO VALLE,76248,core_oficial_exacto_depto,100.0,True
+EL CERRITO - VALLE,EL CERRITO VALLE,76248,core_oficial_exacto_depto,100.0,True
+El Cerrito -Valle,EL CERRITO VALLE,76248,core_oficial_exacto_depto,100.0,True
+El Cerrito Valle,EL CERRITO VALLE,76248,core_oficial_exacto_depto,100.0,True
+El Cerrito-Valle,EL CERRITO VALLE,76248,core_oficial_exacto_depto,100.0,True
+EL DOVIO VALLE,EL DOVIO VALLE,76250,core_oficial_exacto,100.0,True
+FLORIDA VALLE,FLORIDA VALLE,76275,core_oficial_exacto_depto,100.0,True
+GINEBRA - VALLE,GINEBRA VALLE,76306,core_oficial_exacto,100.0,True
+GINEBRA VALLE,GINEBRA VALLE,76306,core_oficial_exacto,100.0,True
+Ginebra Valle,GINEBRA VALLE,76306,core_oficial_exacto,100.0,True
+GUACARI VALLE,GUACARI VALLE,76318,core_oficial_exacto,100.0,True
+GUACARÍ  VALLE,GUACARI VALLE,76318,core_oficial_exacto,100.0,True
+GUACARÍ - VALLE,GUACARI VALLE,76318,core_oficial_exacto,100.0,True
+JAMUNDI  VALLE,JAMUNDI VALLE,76364,core_oficial_exacto,100.0,True
+JAMUNDI - VALLE,JAMUNDI VALLE,76364,core_oficial_exacto,100.0,True
+JAMUNDI -VALLE,JAMUNDI VALLE,76364,core_oficial_exacto,100.0,True
+JAMUNDI- VALLE,JAMUNDI VALLE,76364,core_oficial_exacto,100.0,True
+JAMUNDI-VALLE,JAMUNDI VALLE,76364,core_oficial_exacto,100.0,True
+JAMUNDÍ VALLE,JAMUNDI VALLE,76364,core_oficial_exacto,100.0,True
+JAMUNIDÍ VALLE,JAMUNIDI VALLE,76364,fuzzy_corto_fuerte,99.0,True
+Jamnundi-Valle,JAMNUNDI VALLE,76364,fuzzy_corto_fuerte,99.0,True
+MUNICIPAL DE JAMUNDÍ,MUNICIPAL DE JAMUNDI,76364,core_oficial_exacto,100.0,True
+LA CUMBRE - VALLE,LA CUMBRE VALLE,76377,core_oficial_exacto,100.0,True
+LA CUMBRE VALLE,LA CUMBRE VALLE,76377,core_oficial_exacto,100.0,True
+LA CUMBRE-VALLE,LA CUMBRE VALLE,76377,core_oficial_exacto,100.0,True
+L a Unión Valle  del Cauca,L A UNION VALLE DEL CAUCA,76400,fuzzy_corto_fuerte,99.0,True
+LA UNION VALLE DELCAUCA,LA UNION VALLE DELCAUCA,76400,core_oficial_exacto_depto,100.0,True
+"LA UNION, VALLE",LA UNION VALLE,76400,core_oficial_exacto_depto,100.0,True
+La Union,LA UNION,76400,fuzzy_corto_fuerte,99.0,True
+La Unión - Valle,LA UNION VALLE,76400,core_oficial_exacto_depto,100.0,True
+La Unión Valle,LA UNION VALLE,76400,core_oficial_exacto_depto,100.0,True
+UNIION VALLE DEL CAUCA,UNIION VALLE DEL CAUCA,76400,fuzzy_corto_fuerte,98.91,True
+UNIÓN VALLE DEL CAUCA,UNION VALLE DEL CAUCA,76400,core_oficial_exacto_depto,100.0,True
+Unión - Valle del Cauca,UNION VALLE DEL CAUCA,76400,core_oficial_exacto_depto,100.0,True
+Unión Valle,UNION VALLE,76400,core_oficial_exacto_depto,100.0,True
+LA VICTORIA VALLE,LA VICTORIA VALLE,76403,core_oficial_exacto_depto,100.0,True
+VICTORIA VALLE,VICTORIA VALLE,76403,core_oficial_exacto_depto,100.0,True
+OBANDO VALLE,OBANDO VALLE,76497,core_oficial_exacto,100.0,True
+"Obando , Valle",OBANDO VALLE,76497,core_oficial_exacto,100.0,True
+"Obando , Valle ,",OBANDO VALLE,76497,core_oficial_exacto,100.0,True
+ALMIRA VALLE,ALMIRA VALLE,76520,fuzzy_corto_fuerte,99.0,True
+PALMIDA VALLE,PALMIDA VALLE,76520,fuzzy_corto_con_depto,93.71,True
+PALMIRA - VALLE,PALMIRA VALLE,76520,core_oficial_exacto,100.0,True
+PALMIRA VALLE,PALMIRA VALLE,76520,core_oficial_exacto,100.0,True
+PALMIRA VALLE .,PALMIRA VALLE,76520,core_oficial_exacto,100.0,True
+PALMIRA VALLEDEL CAUCA,PALMIRA VALLEDEL CAUCA,76520,core_oficial_exacto,100.0,True
+"PALMIRA, VALLE",PALMIRA VALLE,76520,core_oficial_exacto,100.0,True
+PALMIRA-VALLE,PALMIRA VALLE,76520,core_oficial_exacto,100.0,True
+PALMRIA VALLE,PALMRIA VALLE,76520,fuzzy_corto_con_depto,93.71,True
+PAMIRA,PAMIRA,76520,fuzzy_corto_con_depto,92.31,True
+PLAMIRA VALLE,PLAMIRA VALLE,76520,alias_manual_exacto,99.0,True
+Palmira  Valle,PALMIRA VALLE,76520,core_oficial_exacto,100.0,True
+Palmira ( Valle ),PALMIRA VALLE,76520,core_oficial_exacto,100.0,True
+"Palmira , Valle",PALMIRA VALLE,76520,core_oficial_exacto,100.0,True
+"Palmira , Valle ,",PALMIRA VALLE,76520,core_oficial_exacto,100.0,True
+Plamira Valle del Cauca,PLAMIRA VALLE DEL CAUCA,76520,alias_manual_exacto,99.0,True
+PRADERA VALLE,PRADERA VALLE,76563,core_oficial_exacto,100.0,True
+"PRADERA, VALLE",PRADERA VALLE,76563,core_oficial_exacto,100.0,True
+PRADERA-VALLE,PRADERA VALLE,76563,core_oficial_exacto,100.0,True
+"Pradera , Valle",PRADERA VALLE,76563,core_oficial_exacto,100.0,True
+Pradera - Valle,PRADERA VALLE,76563,core_oficial_exacto,100.0,True
+RESTREPO,RESTREPO,76606,fuzzy_corto_fuerte,99.0,True
+RESTREPO VALLE,RESTREPO VALLE,76606,core_oficial_exacto_depto,100.0,True
+ROFRÍO VALLE DEL CAUCA,ROFRIO VALLE DEL CAUCA,76616,fuzzy_corto_fuerte,99.0,True
+ROLDANILLO DEL VALLE DEL CAUCA,ROLDANILLO DEL VALLE DEL CAUCA,76622,core_oficial_exacto,100.0,True
+ROLDANILLO VALLE,ROLDANILLO VALLE,76622,core_oficial_exacto,100.0,True
+RONALDILLO VALLE DEL CAUCA,RONALDILLO VALLE DEL CAUCA,76622,alias_manual_exacto,99.0,True
+"Roldanillo , Valle",ROLDANILLO VALLE,76622,core_oficial_exacto,100.0,True
+Roldanillo Valle,ROLDANILLO VALLE,76622,core_oficial_exacto,100.0,True
+SAN PEDRO - VALLE,SAN PEDRO VALLE,76670,core_oficial_exacto_depto,100.0,True
+SAN PEDRO VALLE,SAN PEDRO VALLE,76670,core_oficial_exacto_depto,100.0,True
+San Pedro,SAN PEDRO,76670,fuzzy_corto_fuerte,99.0,True
+SEVILLA-VALLE,SEVILLA VALLE,76736,core_oficial_exacto,100.0,True
+Sevilla  Valle,SEVILLA VALLE,76736,core_oficial_exacto,100.0,True
+"Sevilla , Valle",SEVILLA VALLE,76736,core_oficial_exacto,100.0,True
+Sevilla Valle,SEVILLA VALLE,76736,core_oficial_exacto,100.0,True
+"TORO , VALLE",TORO VALLE,76823,core_oficial_exacto,100.0,True
+TORO VALLE,TORO VALLE,76823,core_oficial_exacto,100.0,True
+Toro -Valle,TORO VALLE,76823,core_oficial_exacto,100.0,True
+"Toro, Valle",TORO VALLE,76823,core_oficial_exacto,100.0,True
+TRUJILLO VALLE,TRUJILLO VALLE,76828,core_oficial_exacto,100.0,True
+MUNICIPIO DE TULUA VALLE,MUNICIPIO DE TULUA VALLE,76834,core_oficial_exacto,100.0,True
+TULUA VALLE,TULUA VALLE,76834,core_oficial_exacto,100.0,True
+"TULUÁ , VALLE",TULUA VALLE,76834,core_oficial_exacto,100.0,True
+"TULUÁ , VALLE .",TULUA VALLE,76834,core_oficial_exacto,100.0,True
+TULUÁ -VALLE,TULUA VALLE,76834,core_oficial_exacto,100.0,True
+TULUÁ-VALLE,TULUA VALLE,76834,core_oficial_exacto,100.0,True
+TUUA VALLE,TUUA VALLE,76834,fuzzy_corto_fuerte,96.89,True
+Tuluá - Valle,TULUA VALLE,76834,core_oficial_exacto,100.0,True
+Tuluá Valle,TULUA VALLE,76834,core_oficial_exacto,100.0,True
+ULLOA-VALLE,ULLOA VALLE,76845,core_oficial_exacto,100.0,True
+Ulloa Valle,ULLOA VALLE,76845,core_oficial_exacto,100.0,True
+VERSALLES VALLE,VERSALLES VALLE,76863,core_oficial_exacto,100.0,True
+VIJES VALLE,VIJES VALLE,76869,core_oficial_exacto,100.0,True
+Vijes  Valle,VIJES VALLE,76869,core_oficial_exacto,100.0,True
+Vijes - Valle,VIJES VALLE,76869,core_oficial_exacto,100.0,True
+YOTOCO VALLE,YOTOCO VALLE,76890,core_oficial_exacto,100.0,True
+YUMBO - VALLE,YUMBO VALLE,76892,core_oficial_exacto,100.0,True
+YUMBO VALLE,YUMBO VALLE,76892,core_oficial_exacto,100.0,True
+YUMBO-VALLE,YUMBO VALLE,76892,core_oficial_exacto,100.0,True
+ZARAZAL-VALLE DEL CAUCA,ZARAZAL VALLE DEL CAUCA,76895,alias_manual_exacto,99.0,True
+ZARZAL VALLE,ZARZAL VALLE,76895,core_oficial_exacto,100.0,True
+"Zarzal , Valle",ZARZAL VALLE,76895,core_oficial_exacto,100.0,True
+"Zarzal , Valle .",ZARZAL VALLE,76895,core_oficial_exacto,100.0,True
+TAIME ARAUCA,TAIME ARAUCA,81794,fuzzy_corto_fuerte,96.89,True
+AGUAZAUL CASANARE,AGUAZAUL CASANARE,85010,fuzzy_corto_fuerte,99.0,True
+AGUAZUL CASANRE,AGUAZUL CASANRE,85010,alias_manual_exacto,99.0,True
+AUGUAZUL CASANARE,AUGUAZUL CASANARE,85010,fuzzy_corto_fuerte,99.0,True
+Aguacal Casanare,AGUACAL CASANARE,85010,alias_manual_exacto,99.0,True
+Aguam Casanare,AGUAM CASANARE,85010,alias_manual_exacto,99.0,True
+Aguarul Casanare,AGUARUL CASANARE,85010,fuzzy_corto_con_depto,93.71,True
+Aguazal Casanare,AGUAZAL CASANARE,85010,fuzzy_corto_con_depto,93.71,True
+aguazul casanar,AGUAZUL CASANAR,85010,fuzzy_corto_con_depto,93.33,True
+ajuazul casanare,AJUAZUL CASANARE,85010,fuzzy_corto_con_depto,93.71,True
+aquazul casanare,AQUAZUL CASANARE,85010,fuzzy_corto_con_depto,93.71,True
+iguazul Casanare,IGUAZUL CASANARE,85010,fuzzy_corto_con_depto,93.71,True
+DE HATO COROZAL CASANARE,DE HATO COROZAL CASANARE,85125,core_oficial_exacto,100.0,True
+MONTEREY CASANARE,MONTEREY CASANARE,85162,fuzzy_corto_fuerte,99.0,True
+PAZ ARIPORO CASANARE,PAZ ARIPORO CASANARE,85250,core_oficial_exacto,100.0,True
+SABANALARGA,SABANALARGA,85300,fuzzy_corto_fuerte,99.0,True
+Sabanalarga,SABANALARGA,85300,fuzzy_corto_fuerte,99.0,True
+"Sabanalarga ,",SABANALARGA,85300,fuzzy_corto_fuerte,99.0,True
+SAN LUIS DEL PALENQUE-CASANARE,SAN LUIS DEL PALENQUE CASANARE,85325,core_oficial_exacto,100.0,True
+SAN LUIS PALENQUE CASANARE,SAN LUIS PALENQUE CASANARE,85325,core_oficial_exacto,100.0,True
+VILLANUAEVA CASANARE,VILLANUAEVA CASANARE,85440,fuzzy_corto_fuerte,99.0,True
+VILLANUEVA,VILLANUEVA,85440,fuzzy_corto_fuerte,99.0,True
+VILLANUREVA-CASANARE,VILLANUREVA CASANARE,85440,fuzzy_corto_fuerte,99.0,True
+colon,COLON,86219,fuzzy_corto_fuerte,99.0,True
+PUETO ASÍS PUTUMAYO,PUETO ASIS PUTUMAYO,86568,fuzzy_corto_fuerte,99.0,True
+SAN MIGUEL,SAN MIGUEL,86757,fuzzy_corto_fuerte,99.0,True
+Santiago,SANTIAGO,86760,fuzzy_corto_fuerte,99.0,True
+Santiago de,SANTIAGO DE,86760,fuzzy_corto_fuerte,99.0,True
+VILLA GARZON PUTUMAYO,VILLA GARZON PUTUMAYO,86885,fuzzy_corto_fuerte,99.0,True
+VILLAGRZON PUTUMAYO,VILLAGRZON PUTUMAYO,86885,fuzzy_corto_fuerte,99.0,True
+Villa garzón - Putumayo,VILLA GARZON PUTUMAYO,86885,fuzzy_corto_fuerte,99.0,True
+SAN ANDRES ISLA,SAN ANDRES ISLA,88001,alias_manual_exacto,99.0,True
+SAN ANDRÉS,SAN ANDRES,88001,fuzzy_corto_fuerte,99.0,True
+"SAN ANDRÉS , ISLA .",SAN ANDRES ISLA,88001,alias_manual_exacto,99.0,True
+"SAN ANDRÉS , ISLAS",SAN ANDRES ISLAS,88001,alias_manual_exacto,99.0,True
+San Andrés  Isla,SAN ANDRES ISLA,88001,alias_manual_exacto,99.0,True
+"San Andrés , Isla",SAN ANDRES ISLA,88001,alias_manual_exacto,99.0,True
+"San Andrés , Isla ,",SAN ANDRES ISLA,88001,alias_manual_exacto,99.0,True
+San Andrés Islas,SAN ANDRES ISLAS,88001,alias_manual_exacto,99.0,True
+"San Andrés, Idla",SAN ANDRES IDLA,88001,fuzzy_corto_con_depto,93.33,True
+"San Andrés, Isla",SAN ANDRES ISLA,88001,alias_manual_exacto,99.0,True
+PROVIDENCIA,PROVIDENCIA,88564,fuzzy_corto_fuerte,99.0,True
+"PROVIDENCIA , ISLA .",PROVIDENCIA ISLA,88564,alias_manual_exacto,99.0,True
+PROVIDENCIA - ISLA,PROVIDENCIA ISLA,88564,alias_manual_exacto,99.0,True
+PROVIDENCIA ISLA,PROVIDENCIA ISLA,88564,alias_manual_exacto,99.0,True
+"Providencia , Isla",PROVIDENCIA ISLA,88564,alias_manual_exacto,99.0,True
+Infrida - Guainía,INFRIDA GUAINIA,94001,fuzzy_corto_con_depto,93.71,True
+CALAMAR,CALAMAR,95015,fuzzy_corto_fuerte,99.0,True
+MIRAFLORES,MIRAFLORES,95200,fuzzy_corto_fuerte,99.0,True
+PUERTO CARRANO VICHADA,PUERTO CARRANO VICHADA,99001,fuzzy_corto_fuerte,99.0,True

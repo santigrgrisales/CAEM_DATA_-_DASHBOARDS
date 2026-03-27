@@ -1,0 +1,1 @@
+#SE TOMARÁN LOS VALORES DE `pendientes_con_sugerencias.csv` PARA REALIZAR EL SEGUNDO FILTRADO
